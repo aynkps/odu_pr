@@ -42,9 +42,9 @@
   <roles>Role.оду_Администрирование</roles>
   <commonModules>CommonModule.пр_Общий</commonModules>
   <commonModules>CommonModule.пр_Клиент</commonModules>
-  <commonModules>CommonModule.пр_НастройкиКлиентПовтИсп</commonModules>
-  <commonModules>CommonModule.пр_НастройкиПовтИсп</commonModules>
   <commonModules>CommonModule.пр_КлиентСервер</commonModules>
+  <commonModules>CommonModule.пр_НастройкиПовтИсп</commonModules>
+  <commonModules>CommonModule.пр_НастройкиКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.оду_Общий</commonModules>
   <commonModules>CommonModule.оду_ОбщийПовтИсп</commonModules>
   <commonModules>CommonModule.оду_Клиент</commonModules>
@@ -96,14 +96,15 @@
   <dataProcessors>DataProcessor.пр_КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиУчастниковОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.пр_НастройкиРаботыМодулейМетодов</informationRegisters>
   <informationRegisters>InformationRegister.пр_СписокЗадачРазработки</informationRegisters>
+  <informationRegisters>InformationRegister.пр_НастройкиРаботыМодулейМетодов</informationRegisters>
   <informationRegisters>InformationRegister.оду_СинхронизацияРегистровУчета</informationRegisters>
   <informationRegisters>InformationRegister.пр_Логи</informationRegisters>
   <informationRegisters>InformationRegister.оду_СостояниеПроизвольныхЗапросов</informationRegisters>
-  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <informationRegisters>InformationRegister.оду_ВерсииПравилОбменаДанными</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

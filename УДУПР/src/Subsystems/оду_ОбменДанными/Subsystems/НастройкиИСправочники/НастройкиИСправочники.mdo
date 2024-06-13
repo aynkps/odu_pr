@@ -20,5 +20,6 @@
   <content>Enum.оду_СпособОбменаДанными</content>
   <content>Enum.оду_СостоянияОбмена</content>
   <content>Enum.оду_РежимОбмена</content>
+  <content>InformationRegister.оду_ВерсииПравилОбменаДанными</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

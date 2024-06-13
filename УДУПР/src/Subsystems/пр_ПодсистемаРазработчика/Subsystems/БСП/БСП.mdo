@@ -11,10 +11,5 @@
   <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
   <content>InformationRegister.ДополнительныеСведения</content>
   <content>DefinedType.ВладелецДополнительныхСведений</content>
-  <content>DefinedType.ВладелецМеток</content>
-  <content>CommonModule.Пользователи</content>
-  <content>CommonModule.ОбщегоНазначения</content>
-  <content>CommonModule.ДополнительныеОтчетыИОбработки</content>
-  <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
   <parentSubsystem>Subsystem.пр_ПодсистемаРазработчика</parentSubsystem>
 </mdclass:Subsystem>

@@ -525,6 +525,46 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f0646348-7372-4e90-8e22-c4e270182c86">
+    <name>ТекущаяВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec649583-d6e4-49ea-9e71-3b41cab16a0f">
+    <name>ОтборыОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="57038c21-80b5-4001-8968-babd296e05b6">
     <producedTypes>
       <objectType typeId="69a55b32-30c6-4a49-add3-5a66eb2da290" valueTypeId="02ff7e0c-fcbc-43ea-a715-ac04133d38c6"/>
@@ -653,7 +693,7 @@
     <name>Организации</name>
     <synonym>
       <key>ru</key>
-      <value>Организации</value>
+      <value>Отборы</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -667,7 +707,7 @@
       <name>Организация</name>
       <synonym>
         <key>ru</key>
-        <value>Организация</value>
+        <value>Объект отбора</value>
       </synonym>
       <type>
         <types>CatalogRef.Организации</types>

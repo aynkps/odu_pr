@@ -57,9 +57,16 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <keyField>0:00949768-5833-4fe2-8752-b009d1bceef8</keyField>
+    <typesFilterField>-8</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>7a576bbd-3683-4c69-8259-b03d2c59db04.e6e738fa-d1b6-42ee-8864-26c35651f974</value>
+    </typesFilterValue>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
+    <objectField>0:cb954476-c551-4a06-9bcd-18d67ba47dc8</objectField>
+    <typeField>0:79201015-bfae-463e-81f1-0ae2d3066f3f</typeField>
+    <valueField>0:ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a</valueField>
     <multipleValuesKeyField>-1</multipleValuesKeyField>
     <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
