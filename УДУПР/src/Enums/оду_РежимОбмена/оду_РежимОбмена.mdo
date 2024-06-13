@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd5cff8-9631-4071-8274-0a85dfcac712">
+  <producedTypes>
+    <refType typeId="38b8eeea-7c04-42e2-b89a-50c5d605d1e6" valueTypeId="9872b625-b1e2-4142-b249-209d83e7a1fc"/>
+    <listType typeId="8a872d39-1140-4e13-bad9-f2ba74666088" valueTypeId="6f92887c-7afd-4820-934b-a27afe15eae2"/>
+    <managerType typeId="0b0d1a38-ac43-4db9-8bfa-e89e1d55df80" valueTypeId="cbf7ae94-8167-4858-a63a-10b3463d405a"/>
+  </producedTypes>
+  <name>оду_РежимОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим обмена (УОД)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e605b6ee-8e34-4a85-88be-1c0ee9092884">
+    <name>ЗагрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24ba400a-433d-4a11-bba4-65f59ad8667e">
+    <name>ВыгрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b37b5911-dfb2-4e87-b565-e38b3f037255">
+    <name>ЗапросСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос ссылки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2601871b-d1a9-472b-8cfa-067c50c5058f">
+    <name>ЗапросДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос движений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

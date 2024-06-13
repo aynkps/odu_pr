@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a136ad9-22ad-4ba7-a31a-40a193b49d26">
+  <producedTypes>
+    <objectType typeId="c14b9953-50dd-41b4-9945-c3d82b9def08" valueTypeId="c3cbb7b3-cc9c-4d0f-854f-a1d946b94eca"/>
+    <refType typeId="7a576bbd-3683-4c69-8259-b03d2c59db04" valueTypeId="a925ac82-b64b-4620-b2c9-6f589a620862"/>
+    <selectionType typeId="3e8eddeb-5824-4a8b-b820-69a6af0b468c" valueTypeId="fab83796-93f1-4981-a423-05ce020cf915"/>
+    <listType typeId="25255fe2-fa22-4dc1-a286-499261db7293" valueTypeId="b90e814f-d23f-4569-a17f-2cafcd67ee68"/>
+    <managerType typeId="efec1d42-5713-4699-ab3f-8e11f28ce037" valueTypeId="88f943fb-686a-4466-ab97-661cf01efc27"/>
+  </producedTypes>
+  <name>НаборыДополнительныхРеквизитовИСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы дополнительных реквизитов и сведений</value>
+  </synonym>
+  <inputByString>Catalog.НаборыДополнительныхРеквизитовИСведений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в группу</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа, к которой относится набор.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование набора свойств</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Набор дополнительных реквизитов и сведений</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="26bc55b8-d0ec-4e5c-a1ab-d34b709c0f6e">
+      <name>УдалитьСправочник_КомплектацииНоменклатуры</name>
+      <description>(не используется) Комплектации номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="ce7782c1-d82a-4ee7-b7ac-9563abf4ce86">
+        <name>УдалитьСправочник_КомплектацииНоменклатуры_Общие</name>
+        <description>(не используется) &quot;Общие&quot;</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="ad168c1c-c6dd-4359-bad8-308373e51217">
+      <name>УдалитьСправочник_Номенклатура</name>
+      <description>(не используется) Номенклатура</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b2682022-3485-4dbe-9a6c-bdddcb8513b2">
+        <name>УдалитьСправочник_Номенклатура_Общие</name>
+        <description>(не используется) &quot;Общие&quot;</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="01571015-5ca8-40d6-b753-c1517c84ee16">
+      <name>УдалитьСправочник_Спецификации</name>
+      <description>(не используется) Спецификации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="ba974bd1-d52d-4c19-ac2b-c7bf90306a55">
+        <name>УдалитьСправочник_Спецификации_Общие</name>
+        <description>(не используется) &quot;Общие&quot;</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="b8d4dd08-f12e-4cee-8997-3648482af6a0">
+      <name>УдалитьСправочник_ХарактеристикиНоменклатуры</name>
+      <description>(не используется) Характеристики номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="1bd3c332-8cc6-4020-9424-0f5d5c98ea0d">
+      <name>УдалитьСправочник_ВнешниеПользователи</name>
+      <description>(не используется) Внешние пользователи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4b1f6bdf-16e9-480e-8012-6474f53e56ac">
+      <name>УдалитьСправочник_ПапкиФайлов</name>
+      <description>(не используется) Папки файлов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="883c54cf-18d8-4741-b4c8-275c1daf346b">
+      <name>УдалитьСправочник_Пользователи</name>
+      <description>(не используется) Пользователи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="00e33f58-9a02-471c-968b-22cb087ac0f8">
+      <name>УдалитьСправочник_Файлы</name>
+      <description>(не используется) Файлы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bc060715-193b-402f-a09c-c3e74ef85d52">
+      <name>УдалитьДокумент_АвансовыйОтчет</name>
+      <description>(не используется) Авансовый отчет</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="40e63a50-94ef-4ff6-9e87-e1d3bd80d687">
+      <name>УдалитьДокумент_АктВыполненныхРабот</name>
+      <description>(не используется) Акт выполненных работ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d477a848-8e5e-47fa-9193-ec7737527bfe">
+      <name>УдалитьДокумент_АктОРасхождениях</name>
+      <description>(не используется) Акт о расхождениях</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="baae8d1a-2dae-4353-b5df-86ec0c0af728">
+      <name>УдалитьДокумент_АктОРасхожденияхПолученный</name>
+      <description>(не используется) Акт о расхождениях полученный</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e748eca4-7f12-40aa-a2bd-4723f5173c4f">
+      <name>УдалитьДокумент_ДоговорКредитаИЗайма</name>
+      <description>(не используется) Договор кредита и займа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18b57b35-69ed-49c6-8296-91c959d3c3d6">
+      <name>УдалитьСправочник_ДоговорыКонтрагентов</name>
+      <description>(не используется) Договоры контрагентов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3bc38eb5-2499-400b-8522-1c5b1c09bfd5">
+      <name>УдалитьДокумент_ОтчетКомиссионераОСписании</name>
+      <description>(не используется) Отчет комиссионера о списании</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="298e5222-094b-4121-b30f-e781c715527e">
+      <name>УдалитьДокумент_ПриемИПередачаВРемонт</name>
+      <description>(не используется) Прием и передача в ремонт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fbf2c3b0-b9de-4360-8189-01692d31cd29">
+      <name>УдалитьДокумент_ЕжедневныйОтчет</name>
+      <description>(не используется) Ежедневный отчет</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="817b29de-3ae4-4a45-b67d-77ff3b080564">
+      <name>УдалитьДокумент_ЗаданиеНаРаботу</name>
+      <description>(не используется) Задание на работу</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3e76da1c-8080-4b22-804c-869445c8784c">
+      <name>УдалитьДокумент_ЗадачаСотрудника</name>
+      <description>(не используется) Задача</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82d0b494-c90d-4a62-a680-b1c920a5de1d">
+      <name>УдалитьДокумент_ЗаказНаПеремещение</name>
+      <description>(не используется) Заказ на перемещение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="62e74b63-5c0d-44b5-be7a-f4b6427a675b">
+      <name>УдалитьДокумент_ЗаказНаПроизводство</name>
+      <description>(не используется) Заказ на производство</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ce88d337-019f-4c5e-babb-0b3801e4ff04">
+      <name>УдалитьДокумент_ЗаказПокупателя</name>
+      <description>(не используется) Заказ покупателя</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6bf7c23-b5e6-4699-97cf-803ed908c3ff">
+      <name>УдалитьДокумент_ЗаказПоставщику</name>
+      <description>(не используется) Заказ поставщику</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5a5656ee-d9fc-4bbf-81b4-9553813b1e3f">
+      <name>УдалитьДокумент_РасходДСПлан</name>
+      <description>(не используется) Заявка на расход денег</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0547c8b-398f-4d53-b21d-135f749111f9">
+      <name>УдалитьДокумент_ЗаявлениеОПредоставленииСведенийОТрудовойДеятельности</name>
+      <description>(не используется) Заявление о предоставлении сведений о трудовой деятельности</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="828ae226-f62f-4f2b-bb8a-cbed42bc3e0a">
+      <name>УдалитьСправочник_ВнеоборотныеАктивы</name>
+      <description>(не используется) Имущество</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d474a7ba-29a2-4855-96b0-2547c8e541ac">
+      <name>УдалитьДокумент_КомплектацияЗапасов</name>
+      <description>(не используется) Комплектация запасов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c4be472d-83f9-4e8b-bcc5-19fe75a0ff4f">
+      <name>УдалитьСправочник_КонтактныеЛица</name>
+      <description>(не используется) Контактные лица</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7dbf0eb7-6360-4a32-91b3-85698ca935cf">
+      <name>УдалитьСправочник_Контрагенты</name>
+      <description>(не используется) Контрагенты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="264a8454-4a23-431d-98f4-ef686bba78fd">
+      <name>УдалитьДокумент_КорректировкаПоступления</name>
+      <description>(не используется) Корректировка поступления</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dad30948-7c2d-4939-82e7-e7e4e66e666d">
+      <name>УдалитьДокумент_КорректировкаРеализации</name>
+      <description>(не используется) Корректировка реализации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fce99f6b-88e5-4e7f-89a6-8cca3883d8aa">
+      <name>УдалитьСправочник_Лиды</name>
+      <description>(не используется) Лиды</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="64fd56f9-2b03-4f4d-9f9c-bd278c0b7edd">
+      <name>УдалитьДокумент_НачисленияПоКредитамИЗаймам</name>
+      <description>(не используется) Начисления по кредитам и займам</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8a5978ac-fabc-451b-9401-4e59cdbab377">
+      <name>УдалитьСправочник_НоменклатураПоставщиков</name>
+      <description>(не используется) Номенклатура поставщиков</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7ec82df6-b95c-4a7d-8a7e-e252bcf35432">
+      <name>УдалитьДокумент_ОперацияПоПлатежнымКартам</name>
+      <description>(не используется) Операция по платежным картам</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4967f6f0-9755-4ff8-baec-96ba75c441bd">
+      <name>УдалитьСправочник_Организации</name>
+      <description>(не используется) Организации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6da7ad09-221c-4707-9afb-19641dea73ab">
+      <name>УдалитьСправочник_ПартииНоменклатуры</name>
+      <description>(не используется) Партии номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5eb7d66b-2dad-4f41-b3b6-3fb67d9b42b1">
+      <name>УдалитьДокумент_ПередачаТоваровМеждуОрганизациями</name>
+      <description>(не используется) Передача товаров между организациями</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="76df79d1-62bb-4d36-ac5f-1b1a77555f5a">
+      <name>УдалитьДокумент_ПеремещениеЗапасов</name>
+      <description>(не используется) Перемещение запасов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8b89f444-f020-442a-83c0-404ef22a8d4c">
+      <name>УдалитьДокумент_ПереоценкаТоваровНаКомиссии</name>
+      <description>(не используется) Переоценка товаров на комиссии</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2f477cca-6913-47dc-99ff-f33b1fb6ab32">
+      <name>УдалитьДокумент_ПоложениеОПремировании</name>
+      <description>(не используется) Положение о премировании</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="42918a03-3b06-4b7c-94bf-5c7ee3666a3b">
+      <name>УдалитьДокумент_ПоступлениеВКассу</name>
+      <description>(не используется) Поступление в кассу</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="587bbb35-bc56-4e2c-9396-929258cf511e">
+      <name>УдалитьДокумент_ПоступлениеНаСчет</name>
+      <description>(не используется) Поступление на счет</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4150d356-ca09-4433-a615-b8278d22abb7">
+      <name>УдалитьДокумент_ПриходнаяНакладная</name>
+      <description>(не используется) Приходная накладная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="70ef7c0b-3c70-4106-97c7-87cdc80b8825">
+      <name>УдалитьДокумент_ПриходныйОрдер</name>
+      <description>(не используется) Приходный ордер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="66f735b0-a8db-41c7-9923-4f16514b0a55">
+      <name>УдалитьСправочник_Проекты</name>
+      <description>(не используется) Проекты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2ddd96a0-9430-4527-a80a-398c025bdd6c">
+      <name>УдалитьДокумент_СборкаЗапасов</name>
+      <description>(не используется) Производство</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96f33ca6-40a4-40db-9d49-f7632d208bb4">
+      <name>УдалитьДокумент_РасходИзКассы</name>
+      <description>(не используется) Расход из кассы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="465fbe4e-93e1-4e95-8d8c-870f7b8ea001">
+      <name>УдалитьДокумент_РасходСоСчета</name>
+      <description>(не используется) Расход со счета</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="531607e4-34b5-42b1-918b-9935349a00af">
+      <name>УдалитьДокумент_РасходнаяНакладная</name>
+      <description>(не используется) Расходная накладная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d6495711-407a-483e-8855-f0d470a4bdc7">
+      <name>УдалитьДокумент_РасходныйОрдер</name>
+      <description>(не используется) Расходный ордер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cabf0930-e844-45fe-985a-4330677da445">
+      <name>УдалитьДокумент_СдельныйНаряд</name>
+      <description>(не используется) Сдельный наряд</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4027515c-09b4-4c3d-9c32-4c30954e7f6b">
+      <name>УдалитьСправочник_СерииНоменклатуры</name>
+      <description>(не используется) Серии номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c9a817c6-9338-4b87-b1b3-b588e40a5426">
+      <name>УдалитьДокумент_СведенияОТрудовойДеятельностиРаботниковСЗВ_ТД</name>
+      <description>(не используется) СЗВ-ТД</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2b93badb-a53d-4d72-b082-35247ffb21e7">
+      <name>УдалитьДокумент_Событие</name>
+      <description>(не используется) Событие</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="66905f1c-f720-4ae7-8399-099190da465a">
+      <name>УдалитьСправочник_Сотрудники</name>
+      <description>(не используется) Сотрудники</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3e219d6a-48a5-42ed-b507-8f9daf7fdc58">
+      <name>УдалитьДокумент_СписаниеЗапасов</name>
+      <description>(не используется) Списание запасов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2117d3c8-f68d-41d2-840a-58046ccbc961">
+      <name>УдалитьДокумент_СписаниеПроданныхПодарочныхСертификатов</name>
+      <description>(не используется) Списание проданных подарочных сертификатов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0281777a-6d57-44b3-b7e8-6e2f2fe7dda8">
+      <name>УдалитьСправочник_СтатьиДвиженияДенежныхСредств</name>
+      <description>(не используется) Статьи движения денежных средств</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="74256f25-6fa0-408f-bf83-3a5c93a9887c">
+      <name>УдалитьДокумент_СведенияОТрудовойДеятельностиРаботникаСТД_Р</name>
+      <description>(не используется) СТД-Р</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="48ae4689-53e5-439b-853c-b9b57025bd87">
+      <name>УдалитьСправочник_СтруктурныеЕдиницы</name>
+      <description>(не используется) Структурные единицы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3561379a-d6ef-4f3f-b364-ce7969d9027b">
+      <name>УдалитьДокумент_СчетНаОплату</name>
+      <description>(не используется) Счет на оплату</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="94146af4-65dd-480e-9ada-6ad2b1c29f35">
+      <name>УдалитьДокумент_СчетНаОплатуПоставщика</name>
+      <description>(не используется) Счет на оплату поставщика</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c8cc733-8a8a-4331-a656-0e0a8405dd3b">
+      <name>УдалитьСправочник_ТранспортныеСредства</name>
+      <description>(не используется) Транспортные средства</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c0c3a065-2c15-4a6f-8ee4-be9e58750ce0">
+      <name>УдалитьДокумент_УстановкаЦенНоменклатуры</name>
+      <description>(не используется) Установка цен</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b82907ac-ac93-420d-901b-92ba81cb1276">
+      <name>УдалитьСправочник_ФизическиеЛица</name>
+      <description>(не используется) Физические лица</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="b456d820-8034-4381-960d-66d9f86b0a4b">
+    <producedTypes>
+      <objectType typeId="fb3fdc57-82e3-4fa7-bccd-b12e88c2fc2f" valueTypeId="63d4cced-9612-4b30-ae1f-23e3f330d6c5"/>
+      <rowType typeId="ce2f4026-0a10-44c8-97b5-a979161cab23" valueTypeId="f73225c3-2dbf-4502-a113-86d134f0bc71"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bd55fd03-cf67-4333-a554-98e03d18f780">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит этого набора</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6eac5f7b-0952-4c94-9028-529b14ffcd4f">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Устанавливается при исключении дополнительного реквизита из набора,
+чтобы можно было вернуть связь с уникальным дополнительным реквизитом.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a587cade-4c91-4769-9c6a-a4fb4fe94196">
+      <name>ИмяПредопределенногоНабора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя предопределенного набора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+  <tabularSections uuid="1a7c774d-5b86-4051-b797-3081e19fa30a">
+    <producedTypes>
+      <objectType typeId="b8d89eda-0906-414a-b98a-52474671f8f0" valueTypeId="061a06e9-2847-4a9d-bb90-e6dc48171b6e"/>
+      <rowType typeId="44721b9c-cf58-40c0-915c-2ad6eb746138" valueTypeId="db901fef-6ba7-4d1c-ab7b-cf4eba31c974"/>
+    </producedTypes>
+    <name>ДополнительныеСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные сведения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="00949768-5833-4fe2-8752-b009d1bceef8">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительное сведение</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительное сведение этого набора</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="167455d1-6658-409f-834c-f6ccfe7b25de">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Устанавливается при исключении дополнительного сведения из набора,
+чтобы можно было вернуть связь с уникальным дополнительным сведением.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1300c46e-24d4-45cf-a899-3d26b5cf0b50">
+      <name>ИмяПредопределенногоНабора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя предопределенного набора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+</mdclass:Catalog>

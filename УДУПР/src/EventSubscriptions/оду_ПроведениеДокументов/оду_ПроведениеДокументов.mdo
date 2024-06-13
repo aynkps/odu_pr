@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69a23dee-ecb0-4c58-9344-a88f584ab650">
+  <name>оду_ПроведениеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду проведение документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.оду_Общий.РегистрацияОбработкаПроведения</handler>
+</mdclass:EventSubscription>

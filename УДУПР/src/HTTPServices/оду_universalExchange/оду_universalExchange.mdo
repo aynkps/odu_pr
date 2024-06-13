@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b91a36-69e9-4850-a22a-f05affb77c51">
+  <name>оду_universalExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду universal exchange</value>
+  </synonym>
+  <rootURL>universalExchange</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="dfcc023a-f62d-4a51-95ab-3c262ab30c38">
+    <name>receiverData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Receiver data</value>
+    </synonym>
+    <comment>Получение данных о приемнике</comment>
+    <template>/*</template>
+    <methods uuid="542fd463-3c2d-44d1-b1c1-87ee2aa59eff">
+      <name>receiverData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Receiver data</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>receiverData</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="86b36c6b-f90e-46f0-8ffb-bf7b79dfdc4d">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="59ee7af9-f002-4d80-a3dd-b18cb36983b5">
+      <name>ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>ping</value>
+      </synonym>
+      <handler>ping</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="819129e6-c6aa-42ed-834e-ef4728221759">
+    <name>exchangeData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange data</value>
+    </synonym>
+    <template>/exchangeData</template>
+    <methods uuid="d0c01ff1-f62c-4d78-b652-9635dbc1ce4c">
+      <name>exchangeData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange data</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exchangeData</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1e28ffd7-fcd9-4e5e-934b-11a580dbc5b9">
+    <name>exchangeStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange status</value>
+    </synonym>
+    <template>/exchangeStatus</template>
+    <methods uuid="c8a24c41-84b6-4247-bbd2-bbb79397b7b1">
+      <name>exchangeStatus</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange status</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exchangeStatus</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6c83f8e1-5ab2-4023-a163-ff0162a267b1">
+    <name>exchangeStatusComplet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange status complet</value>
+    </synonym>
+    <template>/exchangeStatusComplet</template>
+    <methods uuid="496ad682-af21-484f-955f-a3779a22b582">
+      <name>exchangeStatusComplet</name>
+      <synonym>
+        <key>ru</key>
+        <value>Exchange status complet</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exchangeStatusComplet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

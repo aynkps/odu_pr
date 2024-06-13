@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f715e68f-eb16-44f8-a8aa-4938649876ec">
+  <name>оду_ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>УОД</value>
+  </synonym>
+  <comment>Универсальный обмен данными (обмен)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Универсальный обмен данными</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УОД</picture>
+  </picture>
+  <subsystems>НастройкиИСправочники</subsystems>
+  <subsystems>ПроизвольныеЗапросы</subsystems>
+  <subsystems>Сервис</subsystems>
+  <subsystems>БСП</subsystems>
+</mdclass:Subsystem>
