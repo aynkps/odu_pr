@@ -107,6 +107,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:812efbe6-e7bf-45bf-b07f-c1d5c2734188</segments>
+        </dataPath>
         <extendedTooltip>
           <name>РежимОтладкиРасширеннаяПодсказка</name>
           <id>12</id>
@@ -147,6 +150,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:ae7afdda-75a4-4103-a2fd-5854e1ba0155</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ПутьКОбработкиОтладкиРасширеннаяПодсказка</name>
           <id>15</id>
@@ -200,6 +206,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:8231deeb-998e-4ae6-af56-6bdf79f2003f</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ИспользоватьОбработкуБСПРасширеннаяПодсказка</name>
           <id>18</id>
@@ -240,6 +249,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:e2c31937-81ea-40ea-9cb1-f888f2954418</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ОбработкаОтладкиБСПРасширеннаяПодсказка</name>
           <id>21</id>
@@ -464,6 +476,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>1/0:e376d00e-2d77-466a-8fbc-d9cd5136d19c</segments>
+          </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ПОДИзОбработкиБСППриИзменении</name>
@@ -508,6 +523,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>1/0:bc6a90fb-b86d-4b3e-8dc1-8cab0fdf8d29</segments>
+          </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ПОДИзФайлаПриИзменении</name>
@@ -582,6 +600,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:913aa2c0-7492-4897-b31f-3e03a78af58e</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ПутьКПОДРасширеннаяПодсказка</name>
           <id>41</id>
@@ -634,6 +655,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:38601c34-403a-4bfe-a09e-72a651c9ad9d</segments>
+        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ПОДРасширеннаяПодсказка</name>
@@ -722,6 +746,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>1/0:b9459019-4d72-4b43-9fcc-878fad0836bc</segments>
+        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>НастройкиРегистрацииРасширеннаяПодсказка</name>

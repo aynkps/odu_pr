@@ -38,6 +38,7 @@
   <subsystems>Subsystem.оду_ОбменДанными</subsystems>
   <commonPictures>CommonPicture.ТелеграмБольшойЛоготип</commonPictures>
   <commonPictures>CommonPicture.УОД</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.пр_Администратор</roles>
   <roles>Role.оду_Администрирование</roles>
   <commonModules>CommonModule.пр_Общий</commonModules>
@@ -51,10 +52,13 @@
   <commonModules>CommonModule.оду_ОбменДанными</commonModules>
   <commonModules>CommonModule.оду_ПроизвольныеЗарпосы</commonModules>
   <commonModules>CommonModule.оду_Сервер</commonModules>
-  <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <exchangePlans>ExchangePlan.оду_ПланОбмена</exchangePlans>
   <httpServices>HTTPService.оду_universalExchange</httpServices>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
@@ -68,6 +72,7 @@
   <functionalOptions>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</functionalOptions>
   <definedTypes>DefinedType.ВладелецДополнительныхСведений</definedTypes>
   <definedTypes>DefinedType.ВладелецМеток</definedTypes>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</commonCommands>
   <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
   <commonForms>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</commonForms>

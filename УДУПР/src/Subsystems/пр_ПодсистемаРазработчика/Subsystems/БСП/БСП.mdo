@@ -11,5 +11,13 @@
   <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
   <content>InformationRegister.ДополнительныеСведения</content>
   <content>DefinedType.ВладелецДополнительныхСведений</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.СтандартныеПодсистемыСервер</content>
+  <content>CommonModule.ДополнительныеОтчетыИОбработки</content>
+  <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
+  <content>CommonModule.Пользователи</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазы</content>
+  <content>SessionParameter.ТекущийПользователь</content>
   <parentSubsystem>Subsystem.пр_ПодсистемаРазработчика</parentSubsystem>
 </mdclass:Subsystem>

@@ -773,4 +773,57 @@
     </attributes>
     <use>ForFolderAndItem</use>
   </tabularSections>
+  <tabularSections uuid="4cde6fdc-85fa-4c00-896c-51a68f5f10a5">
+    <producedTypes>
+      <objectType typeId="ad4406b3-7f87-4147-bbd6-cfa09ca37b20" valueTypeId="aaaa0103-e44e-4c93-b11e-54a0539b7dc9"/>
+      <rowType typeId="f0af5b08-b962-435c-bc6b-f945a6d8449f" valueTypeId="38b6d370-4b9b-4fc5-bb42-2ab7af9d5c3f"/>
+    </producedTypes>
+    <name>Представления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представления</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f41de07b-cba3-4bb8-9ec0-64ec59753f84">
+      <name>КодЯзыка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код языка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f78a5650-4d6c-4c17-95e0-e95cf8d9ad4b">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
