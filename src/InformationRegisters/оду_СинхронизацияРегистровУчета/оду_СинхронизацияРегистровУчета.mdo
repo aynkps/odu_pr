@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c54382bf-8e7c-42f0-8d2c-d1c275011f43">
+  <producedTypes>
+    <selectionType typeId="204aa9ec-7322-450c-9cef-14b16fa0dc7b" valueTypeId="6fb1736c-ab60-4055-8fc0-9ad7f1a71037"/>
+    <listType typeId="a78cff0e-0691-4857-9768-48556f8f64a1" valueTypeId="a38e84d0-3373-4d62-8c72-3fb182320938"/>
+    <managerType typeId="a1bff000-8227-4449-a3db-9f3a2f15d8f7" valueTypeId="d09c2c43-9f6e-4f7e-afd7-9c0aa346329a"/>
+    <recordSetType typeId="41f2f903-ea9a-4fa2-abc0-5968f3e4495d" valueTypeId="553cf68f-7bb5-44bf-901c-44e7075b4e78"/>
+    <recordKeyType typeId="bc8e842b-397c-4216-8a28-265d8811f124" valueTypeId="ff3c1a12-8239-4943-b83b-0fca556a94cb"/>
+    <recordType typeId="0299fd2e-c272-4b94-9b9f-2b4a97305d4e" valueTypeId="dfd5cbad-30a1-48c7-9826-261cfadd0eaf"/>
+    <recordManagerType typeId="2b0c4601-96a6-40ab-adb6-2ad2db2c03d4" valueTypeId="ef1f3dec-2976-4452-a984-2239fbdcea45"/>
+  </producedTypes>
+  <name>оду_СинхронизацияРегистровУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация регистров учета (УОД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.оду_СинхронизацияРегистровУчета.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f08d4ee7-25a4-4e8c-96e4-c2741c29e25c">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КорректировкаРегистров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="5dd3cf49-8a50-42e8-8163-f8eaa5e0235b">
+    <name>ИДОбъектаКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДОбъекта корректировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9f2ee16d-810b-4d58-9fff-09f8008e8b56">
+    <name>ПричинаОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отклонения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="35e8618b-11d4-4dae-89bb-0e4cc630c086">
+    <name>ОбъектОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект обмена</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="843e2d1d-c201-4ed3-bbb5-f4278a18a8bf">
+    <name>ИДБазыИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД базы источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d280992e-439a-405e-83ca-7059e3168cc7">
+    <name>ИДБазыПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД базы приемника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cb437270-71af-4315-9215-c6844d1533e9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

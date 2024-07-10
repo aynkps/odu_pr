@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75593e1e-c8e1-4302-9769-a77daba93c07">
+  <producedTypes>
+    <refType typeId="d054766a-a3c9-4d8e-a109-c4f70312283b" valueTypeId="601bb693-1798-4e3b-8718-82f9098032aa"/>
+    <listType typeId="b2cddb1f-29cb-4649-b14a-d4f1fffee7ec" valueTypeId="36a5f29c-93fc-4348-9f9b-251138a2b0c8"/>
+    <managerType typeId="23cc617f-beb7-4004-89e1-d94e04dde044" valueTypeId="94cd87b9-bee4-4f63-b74a-b7ec144e4619"/>
+  </producedTypes>
+  <name>пр_МестоКомпиляцииКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Место компиляции кода</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="008c12bd-9c63-4c51-84e2-98d93f004a7c">
+    <name>БазаТиповой</name>
+    <synonym>
+      <key>ru</key>
+      <value>База типовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5fa4265-f535-497b-ba7d-e782604915c8">
+    <name>БазаИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>База изменение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cae2017f-1461-4cf5-b986-779754fab3e6">
+    <name>ВнешнийФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="089e9c21-299b-43e4-a025-162be9a200ce">
+    <name>ВнешнийБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний БСП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

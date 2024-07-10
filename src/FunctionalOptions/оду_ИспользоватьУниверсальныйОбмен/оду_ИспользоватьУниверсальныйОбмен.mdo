@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfca4882-8c2c-4f39-9ef3-ba265633cfc0">
+  <name>оду_ИспользоватьУниверсальныйОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду использовать универсальный обмен</value>
+  </synonym>
+  <location>Constant.оду_ИспользоватьУниверсальныйОбмен</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>InformationRegister.оду_ОшибкиОбмена</content>
+  <content>InformationRegister.оду_РегистрацияОбъектовОбмена</content>
+  <content>InformationRegister.оду_СостояниеОбъектовОбмена</content>
+  <content>Subsystem.оду_ОбменДанными.Subsystem.НастройкиИСправочники</content>
+  <content>Catalog.оду_БазыУчастникиОбмена</content>
+  <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
+  <content>Catalog.оду_НастройкаКонвертацииДанных</content>
+  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
+  <content>ExchangePlan.оду_ПланОбмена</content>
+  <content>Subsystem.оду_ОбменДанными.Subsystem.ПроизвольныеЗапросы</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="916b978d-cf38-4fa0-ab04-178cf8961e95">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.оду_ИспользоватьУниверсальныйОбмен</content>
+  <content>ScheduledJob.оду_РегламентОбмена</content>
+  <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
+  <content>CommonPicture.УОД</content>
+  <content>CommonPicture.ТелеграмБольшойЛоготип</content>
+  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
+  <content>ScheduledJob.оду_ОтложенноеПроведение</content>
+  <content>ExchangePlan.оду_ПланОбмена</content>
+  <content>CommonModule.оду_Общий</content>
+  <content>CommonModule.оду_ОбщийПовтИсп</content>
+  <content>CommonModule.оду_Клиент</content>
+  <content>CommonModule.оду_ОбменДанными</content>
+  <content>CommonModule.оду_Сервер</content>
+  <content>Role.оду_Администрирование</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.оду_ПроведениеДокументов</content>
+  <content>EventSubscription.оду_ЗарегистрироватьУдаление</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменение</content>
+  <content>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</content>
+  <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>HTTPService.оду_universalExchange</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеРС</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

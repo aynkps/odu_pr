@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de696de1-6d83-42a1-bf41-68071dc25cb0">
+  <name>оду_ЗарегистрироватьИзменениеРС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду зарегистрировать изменение РС</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.оду_НастройкиИнформационнойБазы</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.оду_Общий.оду_ЗарегистрироватьИзменениеРСПередЗаписью</handler>
+</mdclass:EventSubscription>

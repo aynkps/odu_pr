@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f272f59b-48ac-4cdb-bc5f-8cf9a1109efd">
+  <producedTypes>
+    <selectionType typeId="a6d1b179-626c-4a22-b61f-cfac2fa359da" valueTypeId="42293933-951e-4bd7-8b96-fe0654a6198f"/>
+    <listType typeId="977d53ec-655a-401e-bcc2-c78503b24796" valueTypeId="a6d71df8-d232-4678-acc2-9441f98a80ea"/>
+    <managerType typeId="8584dcb0-cf45-4981-bf59-beaccb38a6ce" valueTypeId="c0dfa58d-1f8d-434a-9eff-35914cc8942e"/>
+    <recordSetType typeId="3cf38cb6-f365-4f21-8c8c-30f0f75c3471" valueTypeId="00d739c3-c31f-4789-809b-fcec45f97ff2"/>
+    <recordKeyType typeId="c5bd036f-d281-4a41-b554-189593c8ab30" valueTypeId="0a9cf5d2-2510-4264-bf92-b2f8326ef3f0"/>
+    <recordType typeId="d9d29dbf-8e14-412f-b6fd-5a7464cf398a" valueTypeId="6bfc1375-c6ce-4adb-96bb-f349f43c64f5"/>
+    <recordManagerType typeId="b5ba6870-e82f-41c3-94cf-41b4474e8339" valueTypeId="d32eac5d-7744-40b0-b0d0-77c2b5497aea"/>
+  </producedTypes>
+  <name>пр_СписокЗадачРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Список задач разработки (ПР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e5d05b27-c113-4596-8bfd-5c8d2ea9931d">
+    <name>Отключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7187ddbf-a1ba-4b4d-bc82-3d3d7cd71e4c">
+    <name>РежимОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4decd88e-b81f-4b12-bb1e-3bd92f3821f2">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.пр_ЗадачиРазработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

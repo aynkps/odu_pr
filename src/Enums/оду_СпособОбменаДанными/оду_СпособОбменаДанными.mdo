@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331a4e4c-3a03-4693-8c9f-c9e48196f2d9">
+  <producedTypes>
+    <refType typeId="ad18af5b-1361-429a-a8ed-caa442ff074c" valueTypeId="297d2c73-02f5-4b6b-9e97-bf3921ac6f67"/>
+    <listType typeId="8e7e806a-8a7d-4d02-beef-ed76d2bc0639" valueTypeId="5996dcd9-5e9d-4ef5-9a56-d42ab51f14d4"/>
+    <managerType typeId="db1ea348-27d1-41a5-b9c9-940f024b8caa" valueTypeId="b1ecf9c9-e8e0-46e3-a7b2-52aa566397aa"/>
+  </producedTypes>
+  <name>оду_СпособОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ обмена данными (УОД)</value>
+  </synonym>
+  <comment>Как будет запускаться обработка обмена данными</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="747ea256-86dc-4e9f-b88b-8bf42005ee19">
+    <name>Регламент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cf75543-4af7-4837-bbc3-d5cb3c1e1866">
+    <name>РучнойЗапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной запуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e2299b2-1923-4da2-90f1-9cc5efd95ecf">
+    <name>ПриИзменении</name>
+    <synonym>
+      <key>ru</key>
+      <value>При изменении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f145850a-10d4-4daf-9f0d-f1050a41b489">
+    <name>ПоСобытию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По событию</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

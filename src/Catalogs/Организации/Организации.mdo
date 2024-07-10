@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a6d3c8-3832-419f-81ef-fc7c113af6a4">
+  <producedTypes>
+    <objectType typeId="c49b11cf-56da-4bca-9337-993740b9b299" valueTypeId="a2918602-3af4-4bb7-b216-93ee6a6f8eed"/>
+    <refType typeId="55adb97e-a84e-453e-8020-7665bb2abdef" valueTypeId="0cc44199-7d46-4949-9280-5c726618c469"/>
+    <selectionType typeId="718489a1-4ecd-4d99-b49d-7a643db7def5" valueTypeId="a2b504a1-59b2-46b8-a0f7-f7481539c8e2"/>
+    <listType typeId="53fa73a4-aefd-48c5-bd9d-2731e7adc2f5" valueTypeId="8ed526e2-3dbb-473f-b40f-6b955bb0de96"/>
+    <managerType typeId="1281a938-23fc-4ecf-aac8-7c522d4e78bc" valueTypeId="007a4e47-1c05-4928-898e-0f784bf2631e"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.Attribute.ИНН</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее наименование</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для быстрой визуальной идентификации организации в процессе работы с программой.</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Организация</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Организации</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Юридические лица и предприниматели нашего предприятия.</value>
+  </explanation>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c25a7969-50eb-4d49-ade2-3ddf89b5fc14">
+      <name>УправленческаяОрганизация</name>
+      <description>Управленческая организация</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9a4098b9-639a-42f1-8113-779c62420e46">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификационный номер налогоплательщика представляет собой цифровой код, упорядочивающий сбор налогов с налогоплательщиков. ИНН присваивается как юридическим, так и физическим лицам.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

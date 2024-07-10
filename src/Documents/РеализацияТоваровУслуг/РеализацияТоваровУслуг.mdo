@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eac9a31-ed8b-4965-85f9-086b89e1764b">
+  <producedTypes>
+    <objectType typeId="b49b1b79-1b07-4d20-b08e-6ccd12c24a8c" valueTypeId="89124017-8e84-4d4c-a747-5970deb2f6bd"/>
+    <refType typeId="7433d4e8-f07d-4ace-819f-00191a4913db" valueTypeId="c2ee94e5-2013-401c-b129-d9a0a730416a"/>
+    <selectionType typeId="c70ddf21-2799-4529-96ea-75191962e507" valueTypeId="05011ea7-d04b-4cc5-b29b-c6990dde9f9a"/>
+    <listType typeId="d62038a1-ccad-4818-a4d5-e8cd9490966a" valueTypeId="234e7153-ee05-4017-a00b-8a3f55525356"/>
+    <managerType typeId="f36d0528-40a4-4d60-9fa1-7c76225a0a5c" valueTypeId="7f8260a5-9be0-4391-ab88-4eac700100c7"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваровУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата оформления документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядковый номер документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Реализация товаров и услуг</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Реализация товаров и услуг</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Реализации товаров и услуг</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Реализации товаров и услуг</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Документы, фиксирующие факт продажи товаров и оказание услуг предприятием</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+</mdclass:Document>
