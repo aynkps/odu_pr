@@ -25,20 +25,12 @@
       <key>ru</key>
       <value>Использовать автосохранение</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Use autosave</value>
-    </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
       <value>Включает автосохранение</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Includes autosave</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -48,10 +40,6 @@
     <synonym>
       <key>ru</key>
       <value>Период автосохранения</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Autosave period</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -64,10 +52,6 @@
       <key>ru</key>
       <value>Устанавливает период автосохранения</value>
     </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Sets an autosave period</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -76,10 +60,6 @@
     <synonym>
       <key>ru</key>
       <value>Путь к формам</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Form path</value>
     </synonym>
     <type>
       <types>String</types>
@@ -91,10 +71,6 @@
       <key>ru</key>
       <value>Указывает путь к формам</value>
     </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Specifies a form path</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -104,10 +80,6 @@
       <key>ru</key>
       <value>Доступные типы данных</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Available data types</value>
-    </synonym>
     <type>
       <types>TypeDescription</types>
       <types>AnyRef</types>
@@ -115,10 +87,6 @@
     <toolTip>
       <key>ru</key>
       <value>Определяет доступные типы данных</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Determines available data types</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -129,10 +97,6 @@
       <key>ru</key>
       <value>Имя файла</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>File name</value>
-    </synonym>
     <comment>Имя файла XML, где хранятся запросы и параметры.</comment>
     <type>
       <types>String</types>
@@ -141,10 +105,6 @@
     <toolTip>
       <key>ru</key>
       <value>Имя файла XML, где хранятся запросы и его параметры</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Name of an XML file containing queries and its parameters</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -155,20 +115,12 @@
       <key>ru</key>
       <value>Выводить в результатах запроса значения ссылок</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Output reference values in query results</value>
-    </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
       <value>Указывает необходимо ли выводить в результатах запроса значения ссылок</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Specifies whether it is necessary to output reference values in query results</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -178,10 +130,6 @@
     <synonym>
       <key>ru</key>
       <value>Тип обхода результата запроса</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query result iteration type</value>
     </synonym>
     <type>
       <types>String</types>
@@ -193,10 +141,6 @@
       <key>ru</key>
       <value>Варианты обхода результата запроса</value>
     </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Query result iteration options</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -206,20 +150,12 @@
       <key>ru</key>
       <value>Чередование цветов в результате запроса</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Alternating colors in the query result</value>
-    </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
       <value>Использовать чередование цветов при выводе результатов запроса</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Use alternating colors when output query results</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -233,10 +169,6 @@
     <synonym>
       <key>ru</key>
       <value>Запросы</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Requests</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -252,20 +184,12 @@
         <key>ru</key>
         <value>Идентификатор</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>ID</value>
-      </synonym>
       <type>
         <types>UUID</types>
       </type>
       <toolTip>
         <key>ru</key>
         <value>Уникальный идентификатор запроса</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Query UUID</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -277,10 +201,6 @@
         <key>ru</key>
         <value>Имя</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Name</value>
-      </synonym>
       <comment>Имя запроса</comment>
       <type>
         <types>String</types>
@@ -291,10 +211,6 @@
       <toolTip>
         <key>ru</key>
         <value>Имя запроса</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Query name</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -308,10 +224,6 @@
         <key>ru</key>
         <value>Текст</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Text</value>
-      </synonym>
       <comment>Текст запроса</comment>
       <type>
         <types>String</types>
@@ -320,10 +232,6 @@
       <toolTip>
         <key>ru</key>
         <value>Текст запроса</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Query text</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -336,10 +244,6 @@
       <synonym>
         <key>ru</key>
         <value>Время выполнения</value>
-      </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Runtime</value>
       </synonym>
       <comment>Время выполнения в секундах</comment>
       <type>
@@ -354,10 +258,6 @@
         <key>ru</key>
         <value>Время выполнения в секундах</value>
       </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Runtime (in seconds).</value>
-      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -367,10 +267,6 @@
       <synonym>
         <key>ru</key>
         <value>Количество строк</value>
-      </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Number of rows</value>
       </synonym>
       <comment>Количество возвращаемых строк в результате запроса</comment>
       <type>
@@ -384,10 +280,6 @@
         <key>ru</key>
         <value>Количество возвращаемых строк в результате запроса</value>
       </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Number of rows returned as result of a query.</value>
-      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -397,10 +289,6 @@
       <synonym>
         <key>ru</key>
         <value>Адрес результата</value>
-      </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Result address</value>
       </synonym>
       <comment>Адрес временного хранилища, где хранится результат</comment>
       <type>
@@ -412,10 +300,6 @@
       <toolTip>
         <key>ru</key>
         <value>Адрес временного хранилища, где хранится результат</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Path to a temporary storage where the result is stored</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -429,10 +313,6 @@
         <key>ru</key>
         <value>Адрес результатов запроса</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Query result address</value>
-      </synonym>
       <comment>Адрес массива результатов запроса во временном  хранилище</comment>
       <type>
         <types>String</types>
@@ -443,10 +323,6 @@
       <toolTip>
         <key>ru</key>
         <value>Адрес массива результатов запроса во временном  хранилище</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Address of a query results array in a temporary storage</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -459,10 +335,6 @@
       <synonym>
         <key>ru</key>
         <value>Адрес хранилища плана запроса</value>
-      </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Query plan storage address</value>
       </synonym>
       <type>
         <types>String</types>
@@ -485,10 +357,6 @@
       <key>ru</key>
       <value>Параметры</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Parameters</value>
-    </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
@@ -503,10 +371,6 @@
         <key>ru</key>
         <value>Идентификатор</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>ID</value>
-      </synonym>
       <comment>Идентификатор</comment>
       <type>
         <types>UUID</types>
@@ -514,10 +378,6 @@
       <toolTip>
         <key>ru</key>
         <value>Идентификатор параметра</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Parameter ID</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -529,10 +389,6 @@
         <key>ru</key>
         <value>Идентификатор запроса</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Query ID</value>
-      </synonym>
       <comment>Идентификатор запроса</comment>
       <type>
         <types>UUID</types>
@@ -540,10 +396,6 @@
       <toolTip>
         <key>ru</key>
         <value>Уникальный идентификатор запроса</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Query UUID</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -555,10 +407,6 @@
         <key>ru</key>
         <value>Имя</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Name</value>
-      </synonym>
       <comment>Имя параметра</comment>
       <type>
         <types>String</types>
@@ -569,10 +417,6 @@
       <toolTip>
         <key>ru</key>
         <value>Имя параметра</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Parameter name</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -586,10 +430,6 @@
         <key>ru</key>
         <value>Тип</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Type</value>
-      </synonym>
       <comment>Тип</comment>
       <type>
         <types>String</types>
@@ -598,10 +438,6 @@
       <toolTip>
         <key>ru</key>
         <value>Тип параметра</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Parameter type</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -615,10 +451,6 @@
         <key>ru</key>
         <value>Значение</value>
       </synonym>
-      <synonym>
-        <key>en</key>
-        <value>Value</value>
-      </synonym>
       <comment>Значение параметра</comment>
       <type>
         <types>String</types>
@@ -627,10 +459,6 @@
       <toolTip>
         <key>ru</key>
         <value>Значение параметра</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Parameter value</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -792,10 +620,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Form</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -804,10 +628,6 @@
     <synonym>
       <key>ru</key>
       <value>Настройки</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Settings</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -818,10 +638,6 @@
       <key>ru</key>
       <value>Выбор запроса</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query choice</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -830,10 +646,6 @@
     <synonym>
       <key>ru</key>
       <value>Таблица значений</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Value table</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -844,10 +656,6 @@
       <key>ru</key>
       <value>Текст запроса для конфигуратора</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query text for Designer</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -856,10 +664,6 @@
     <synonym>
       <key>ru</key>
       <value>Момент времени</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Point in time</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -870,10 +674,6 @@
       <key>ru</key>
       <value>Граница</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Border</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -882,10 +682,6 @@
     <synonym>
       <key>ru</key>
       <value>Результат запроса</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query result</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -896,10 +692,6 @@
       <key>ru</key>
       <value>План выполнения запроса</value>
     </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query plan</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -908,10 +700,6 @@
     <synonym>
       <key>ru</key>
       <value>Результат выполнения запроса</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Query result</value>
     </synonym>
   </templates>
   <commands uuid="db120740-c2dc-4a4c-8164-da0cf6eb39aa">

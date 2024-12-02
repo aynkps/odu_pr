@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b4d0d6d-c465-4a95-b095-4713bb4724dd">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.пр_Клиент</content>
+  <content>CommonModule.пр_КлиентСервер</content>
+  <content>CommonModule.пр_НастройкиКлиентПовтИсп</content>
+  <content>CommonModule.пр_НастройкиПовтИсп</content>
+  <content>CommonModule.пр_Общий</content>
+  <content>Role.пр_Администратор</content>
+  <content>DataProcessor.пр_КонсольЗапросов</content>
+  <content>InformationRegister.пр_Логи</content>
+  <content>InformationRegister.пр_НастройкиРаботыМодулейМетодов</content>
+  <parentSubsystem>Subsystem.пр_ПодсистемаРазработчика</parentSubsystem>
+</mdclass:Subsystem>

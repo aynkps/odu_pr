@@ -30,6 +30,6 @@
   <content>HTTPService.оду_universalExchange</content>
   <content>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</content>
   <content>EventSubscription.оду_ЗарегистрироватьИзменениеРС</content>
-  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>CommonCommand.ДополнительныеСведенияКоманднаяПанель</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

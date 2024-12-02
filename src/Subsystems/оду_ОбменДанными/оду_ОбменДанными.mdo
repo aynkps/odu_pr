@@ -19,4 +19,5 @@
   <subsystems>ПроизвольныеЗапросы</subsystems>
   <subsystems>Сервис</subsystems>
   <subsystems>БСП</subsystems>
+  <subsystems>Интеграция</subsystems>
 </mdclass:Subsystem>

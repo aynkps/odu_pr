@@ -42,6 +42,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -332,7 +336,57 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.оду_ОбменДанными.Subsystem.ПроизвольныеЗапросы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.оду_РегистрацияОбъектовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.оду_ВерсииПравилОбменаДанными</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -681,6 +735,13 @@
 	</object>
 	<object>
 		<name>Subsystem.оду_ОбменДанными.Subsystem.НастройкиИСправочники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.оду_ОбменДанными.Subsystem.БСП</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

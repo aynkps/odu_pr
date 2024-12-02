@@ -18,4 +18,5 @@
   <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
   <content>ExchangePlan.оду_ПланОбмена</content>
   <content>Subsystem.оду_ОбменДанными.Subsystem.ПроизвольныеЗапросы</content>
+  <content>InformationRegister.оду_ВерсииПравилОбменаДанными</content>
 </mdclass:FunctionalOption>

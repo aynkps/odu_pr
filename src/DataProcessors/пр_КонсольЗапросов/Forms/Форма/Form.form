@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучатьПланВыполненияЗапроса</name>
       <id>156</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать план выполнения запроса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -58,10 +62,6 @@
         <key>ru</key>
         <value>Получить</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Get</value>
-      </title>
       <visible>true</visible>
       <userVisible>
         <common>true</common>
@@ -69,10 +69,6 @@
       <toolTip>
         <key>ru</key>
         <value>Открыть план выполнения запроса</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Open a query plan</value>
       </toolTip>
       <extendedTooltip>
         <name>ПоказатьПланВыполненияЗапросаРасширеннаяПодсказка</name>
@@ -116,10 +112,6 @@
       <title>
         <key>ru</key>
         <value>Декорация включения плана запроса</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Decoration of enabling query plan</value>
       </title>
       <enabled>true</enabled>
       <userVisible>
@@ -199,6 +191,10 @@
     <items xsi:type="form:FormField">
       <name>ВыводитьРезультатыЗапроса</name>
       <id>207</id>
+      <title>
+        <key>ru</key>
+        <value>Выводить результаты запроса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -250,10 +246,6 @@
             <key>ru</key>
             <value>Все</value>
           </presentation>
-          <presentation>
-            <key>en</key>
-            <value>All</value>
-          </presentation>
           <value xsi:type="core:NumberValue">
             <value>-1</value>
           </value>
@@ -263,10 +255,6 @@
             <key>ru</key>
             <value>Не требуется</value>
           </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Not required</value>
-          </presentation>
           <value xsi:type="core:NumberValue">
             <value>0</value>
           </value>
@@ -275,10 +263,6 @@
           <presentation>
             <key>ru</key>
             <value>Первые 1000</value>
-          </presentation>
-          <presentation>
-            <key>en</key>
-            <value>First 1000</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1000</value>
@@ -294,10 +278,6 @@
     <title>
       <key>ru</key>
       <value>План запроса панель</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Query plan panel</value>
     </title>
     <extendedTooltip>
       <name>ГруппаПланЗапросаПанельРасширеннаяПодсказка</name>
@@ -334,10 +314,6 @@
         <key>ru</key>
         <value>Параметры</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Parameters</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -354,10 +330,6 @@
           <key>ru</key>
           <value>Имя параметра</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Parameter name</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -367,7 +339,7 @@
           <segments>Объект.Параметры.Имя</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ИмяExtendedTooltip</name>
+          <name>ИмяРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -417,7 +389,7 @@
           <segments>Объект.Параметры.ТипВФорме</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТипВФормеExtendedTooltip</name>
+          <name>ТипВФормеРасширеннаяПодсказка</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -475,7 +447,7 @@
           <name>ЗначениеВФормеПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЗначениеВФормеExtendedTooltip</name>
+          <name>ЗначениеВФормеРасширеннаяПодсказка</name>
           <id>73</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -495,6 +467,10 @@
           <items xsi:type="form:Button">
             <name>ЗначениеВФормеКонтекстноеМенюУстановитьИД</name>
             <id>185</id>
+            <title>
+              <key>ru</key>
+              <value>Задать уникальный идентификатор</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -558,7 +534,7 @@
           <segments>Объект.Параметры.Тип</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТипExtendedTooltip</name>
+          <name>ТипРасширеннаяПодсказка</name>
           <id>74</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -608,7 +584,7 @@
           <segments>Объект.Параметры.Значение</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗначениеExtendedTooltip</name>
+          <name>ЗначениеРасширеннаяПодсказка</name>
           <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -657,7 +633,7 @@
           <segments>Объект.Параметры.ИдентификаторЗапроса</segments>
         </dataPath>
         <extendedTooltip>
-          <name>IDЗапросаExtendedTooltip</name>
+          <name>IDЗапросаРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -832,7 +808,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ПараметрыExtendedTooltip</name>
+        <name>ПараметрыРасширеннаяПодсказка</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -890,10 +866,6 @@
       <key>ru</key>
       <value>Параметры запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query parameters</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаПараметрыРасширеннаяПодсказка</name>
       <id>196</id>
@@ -928,6 +900,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстЗапроса</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Текст запроса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -942,7 +918,7 @@
         <name>ТекстЗапросаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстЗапросаExtendedTooltip</name>
+        <name>ТекстЗапросаРасширеннаяПодсказка</name>
         <id>80</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -969,17 +945,13 @@
               <key>ru</key>
               <value>Конструктор запроса...</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Query designer…</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстЗапросаКонтекстноеМенюОткрытьКонструкторЗапросаExtendedTooltip</name>
+              <name>ТекстЗапросаКонтекстноеМенюОткрытьКонструкторЗапросаРасширеннаяПодсказка</name>
               <id>78</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1006,13 +978,17 @@
           <items xsi:type="form:Button">
             <name>ТекстЗапросаКонтекстноеМенюСоздатьТекстЗапросаДляКонфигуратора</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Текст запроса для конфигуратора</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстЗапросаКонтекстноеМенюСоздатьТекстЗапросаДляКонфигуратораExtendedTooltip</name>
+              <name>ТекстЗапросаКонтекстноеМенюСоздатьТекстЗапросаДляКонфигуратораРасширеннаяПодсказка</name>
               <id>79</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1042,10 +1018,6 @@
             <key>ru</key>
             <value>Текст запроса контекстное меню группа сервис</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Query text context menu group service</value>
-          </title>
           <extendedTooltip>
             <name>ТекстЗапросаКонтекстноеМенюГруппаСервисРасширеннаяПодсказка</name>
             <id>77</id>
@@ -1069,6 +1041,10 @@
           <items xsi:type="form:Button">
             <name>ТекстЗапросаКонтекстноеМенюРаскомментировать</name>
             <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Раскомментировать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1099,6 +1075,10 @@
           <items xsi:type="form:Button">
             <name>ТекстЗапросаКонтекстноеМенюЗакомментировать</name>
             <id>174</id>
+            <title>
+              <key>ru</key>
+              <value>Закомментировать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1134,10 +1114,6 @@
           <title>
             <key>ru</key>
             <value>Оформление</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>Appearance</value>
           </title>
           <extendedTooltip>
             <name>ТекстЗапросаКонтекстноеМенюГруппаОформлениеРасширеннаяПодсказка</name>
@@ -1189,10 +1165,6 @@
       <key>ru</key>
       <value>Текст запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query text</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаТекстЗапросаРасширеннаяПодсказка</name>
       <id>201</id>
@@ -1225,10 +1197,10 @@
     <id>202</id>
     <items xsi:type="form:FormGroup">
       <name>пр_ГруппаМВТ</name>
-      <id>238</id>
+      <id>215</id>
       <items xsi:type="form:Table">
         <name>пр_МВТ</name>
-        <id>219</id>
+        <id>217</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1240,7 +1212,7 @@
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>пр_МВТПолноеИмя</name>
-          <id>232</id>
+          <id>230</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1251,7 +1223,7 @@
           </dataPath>
           <extendedTooltip>
             <name>пр_МВТПолноеИмяРасширеннаяПодсказка</name>
-            <id>234</id>
+            <id>232</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1266,7 +1238,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>пр_МВТПолноеИмяКонтекстноеМеню</name>
-            <id>233</id>
+            <id>231</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1290,7 +1262,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>пр_МВТКолВо</name>
-          <id>235</id>
+          <id>233</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1301,7 +1273,7 @@
           </dataPath>
           <extendedTooltip>
             <name>пр_МВТКолВоРасширеннаяПодсказка</name>
-            <id>237</id>
+            <id>235</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1316,7 +1288,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>пр_МВТКолВоКонтекстноеМеню</name>
-            <id>236</id>
+            <id>234</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1342,7 +1314,7 @@
         </items>
         <autoCommandBar>
           <name>пр_МВТКоманднаяПанель</name>
-          <id>221</id>
+          <id>219</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1361,10 +1333,10 @@
             <common>true</common>
           </userVisible>
           <name>пр_МВТСтрокаПоиска</name>
-          <id>223</id>
+          <id>221</id>
           <extendedTooltip>
             <name>пр_МВТСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>225</id>
+            <id>223</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1379,7 +1351,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>пр_МВТСтрокаПоискаКонтекстноеМеню</name>
-            <id>224</id>
+            <id>222</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1399,10 +1371,10 @@
             <common>true</common>
           </userVisible>
           <name>пр_МВТСостояниеПросмотра</name>
-          <id>226</id>
+          <id>224</id>
           <extendedTooltip>
             <name>пр_МВТСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>228</id>
+            <id>226</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1417,7 +1389,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>пр_МВТСостояниеПросмотраКонтекстноеМеню</name>
-            <id>227</id>
+            <id>225</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1438,10 +1410,10 @@
             <common>true</common>
           </userVisible>
           <name>пр_МВТУправлениеПоиском</name>
-          <id>229</id>
+          <id>227</id>
           <extendedTooltip>
             <name>пр_МВТУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>231</id>
+            <id>229</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1456,7 +1428,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>пр_МВТУправлениеПоискомКонтекстноеМеню</name>
-            <id>230</id>
+            <id>228</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1472,7 +1444,7 @@
         </searchControlAddition>
         <extendedTooltip>
           <name>пр_МВТРасширеннаяПодсказка</name>
-          <id>222</id>
+          <id>220</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1487,7 +1459,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>пр_МВТКонтекстноеМеню</name>
-          <id>220</id>
+          <id>218</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1534,7 +1506,7 @@
       </toolTip>
       <extendedTooltip>
         <name>пр_ГруппаМВТРасширеннаяПодсказка</name>
-        <id>239</id>
+        <id>216</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1567,6 +1539,10 @@
     <items xsi:type="form:FormField">
       <name>РезультатЗапроса</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Результат запроса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1594,7 +1570,7 @@
         <name>РезультатЗапросаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>РезультатЗапросаExtendedTooltip</name>
+        <name>РезультатЗапросаРасширеннаяПодсказка</name>
         <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1617,13 +1593,17 @@
           <items xsi:type="form:Button">
             <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейки</name>
             <id>56</id>
+            <title>
+              <key>ru</key>
+              <value>Выделить/отменить выделение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейкиExtendedTooltip</name>
+              <name>РезультатЗапросаКонтекстноеМенюВыделитьЯчейкиРасширеннаяПодсказка</name>
               <id>82</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1653,7 +1633,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаПечатьExtendedTooltip</name>
+              <name>РезультатЗапросаПечатьРасширеннаяПодсказка</name>
               <id>83</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1681,17 +1661,13 @@
               <key>ru</key>
               <value>Сохранить результат запроса</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Save query result</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюСохранитьExtendedTooltip</name>
+              <name>РезультатЗапросаКонтекстноеМенюСохранитьРасширеннаяПодсказка</name>
               <id>84</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1721,12 +1697,8 @@
             <key>ru</key>
             <value>Результат запроса</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Query result</value>
-          </title>
           <extendedTooltip>
-            <name>РезультатЗапросаКонтекстноеМенюГруппа1ExtendedTooltip</name>
+            <name>РезультатЗапросаКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
             <id>81</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1748,13 +1720,17 @@
           <items xsi:type="form:Button">
             <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокумент</name>
             <id>51</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть в отдельном окне</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокументExtendedTooltip</name>
+              <name>РезультатЗапросаКонтекстноеМенюОткрытьВОтдельномОкнеТабличныйДокументРасширеннаяПодсказка</name>
               <id>86</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1784,12 +1760,8 @@
             <key>ru</key>
             <value>Результат запроса контекстное меню</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Query result Context menu</value>
-          </title>
           <extendedTooltip>
-            <name>РезультатЗапросаКонтекстноеМенюГруппа2ExtendedTooltip</name>
+            <name>РезультатЗапросаКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
             <id>85</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1811,13 +1783,17 @@
           <items xsi:type="form:Button">
             <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультата</name>
             <id>53</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть значение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультатаExtendedTooltip</name>
+              <name>РезультатЗапросаКонтекстноеМенюОткрытьОбъектИзРезультатаРасширеннаяПодсказка</name>
               <id>88</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1841,13 +1817,17 @@
           <items xsi:type="form:Button">
             <name>РезультатЗапросаКонтекстноеМенюОткрытьСписокИзРезультата</name>
             <id>54</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть список</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РезультатЗапросаКонтекстноеМенюОткрытьСписокИзРезультатаExtendedTooltip</name>
+              <name>РезультатЗапросаКонтекстноеМенюОткрытьСписокИзРезультатаРасширеннаяПодсказка</name>
               <id>89</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1877,12 +1857,8 @@
             <key>ru</key>
             <value>Результат запроса</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Query result</value>
-          </title>
           <extendedTooltip>
-            <name>РезультатЗапросаКонтекстноеМенюГруппа3ExtendedTooltip</name>
+            <name>РезультатЗапросаКонтекстноеМенюГруппа3РасширеннаяПодсказка</name>
             <id>87</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1945,10 +1921,6 @@
       <key>ru</key>
       <value>Результат запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query result</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаРезультатЗапросаРасширеннаяПодсказка</name>
       <id>203</id>
@@ -1986,13 +1958,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВыполнитьЗапрос</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыполнитьЗапросExtendedTooltip</name>
+          <name>ФормаВыполнитьЗапросРасширеннаяПодсказка</name>
           <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2017,13 +1993,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВыполнитьЗапросСВременнымиТаблицами</name>
         <id>38</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить весь запрос</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыполнитьЗапросСВременнымиТаблицамиExtendedTooltip</name>
+          <name>ФормаВыполнитьЗапросСВременнымиТаблицамиРасширеннаяПодсказка</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2052,10 +2032,6 @@
       <title>
         <key>ru</key>
         <value>Выполнить</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Run</value>
       </title>
       <extendedTooltip>
         <name>ГруппаВыполнитьРасширеннаяПодсказка</name>
@@ -2086,17 +2062,13 @@
           <key>ru</key>
           <value>Добавить параметр</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Add parameter</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаДобавитьExtendedTooltip</name>
+          <name>ФормаДобавитьРасширеннаяПодсказка</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2120,13 +2092,17 @@
       <items xsi:type="form:Button">
         <name>ПараметрыВыбратьЗапросыИзФайла</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыВыбратьЗапросыИзФайлаExtendedTooltip</name>
+          <name>ПараметрыВыбратьЗапросыИзФайлаРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2150,13 +2126,17 @@
       <items xsi:type="form:Button">
         <name>ПараметрыСохранитьЗапросыВФайл</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить запросы в файл</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыСохранитьЗапросыВФайлExtendedTooltip</name>
+          <name>ПараметрыСохранитьЗапросыВФайлРасширеннаяПодсказка</name>
           <id>68</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2180,13 +2160,17 @@
       <items xsi:type="form:Button">
         <name>ПараметрыСохранитьЗапросыВДругойФайл</name>
         <id>40</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить запросы в другой файл</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыСохранитьЗапросыВДругойФайлExtendedTooltip</name>
+          <name>ПараметрыСохранитьЗапросыВДругойФайлРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2210,13 +2194,17 @@
       <items xsi:type="form:Button">
         <name>ПараметрыСкопироватьЗапрос</name>
         <id>55</id>
+        <title>
+          <key>ru</key>
+          <value>Скопировать запрос</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПараметрыСкопироватьЗапросExtendedTooltip</name>
+          <name>ПараметрыСкопироватьЗапросРасширеннаяПодсказка</name>
           <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2240,13 +2228,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбратьЗапрос</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Запросы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыбратьЗапросExtendedTooltip</name>
+          <name>ФормаВыбратьЗапросРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2276,13 +2268,9 @@
         <key>ru</key>
         <value>Кнопок параметры</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Buttons parameters</value>
-      </title>
       <enableContentChange>true</enableContentChange>
       <extendedTooltip>
-        <name>ГруппаКнопокПараметрыExtendedTooltip</name>
+        <name>ГруппаКнопокПараметрыРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2307,17 +2295,13 @@
         <key>ru</key>
         <value>Выбрать результат</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Select result</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыполнитьВыборРезультатаЗапросаExtendedTooltip</name>
+        <name>ФормаВыполнитьВыборРезультатаЗапросаРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2344,13 +2328,17 @@
     <items xsi:type="form:Button">
       <name>ПараметрыСчитатьПараметрыИзТекстаЗапроса</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить параметры</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПараметрыСчитатьПараметрыИзТекстаЗапросаExtendedTooltip</name>
+        <name>ПараметрыСчитатьПараметрыИзТекстаЗапросаРасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2374,6 +2362,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаполнитьИзXML</name>
       <id>193</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить из XML</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2404,7 +2396,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>Формапр_ЗаполнитьИзТекстовогоФайла</name>
-      <id>215</id>
+      <id>236</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2412,7 +2404,7 @@
       </userVisible>
       <extendedTooltip>
         <name>Формапр_ЗаполнитьИзТекстовогоФайлаРасширеннаяПодсказка</name>
-        <id>216</id>
+        <id>237</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2439,6 +2431,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗакомментировать</name>
         <id>164</id>
+        <title>
+          <key>ru</key>
+          <value>Закомментировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2469,6 +2465,10 @@
       <items xsi:type="form:Button">
         <name>ФормаРаскомментировать</name>
         <id>166</id>
+        <title>
+          <key>ru</key>
+          <value>Раскомментировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2505,10 +2505,6 @@
         <key>ru</key>
         <value>Оформление</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Appearance</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаОформлениеРасширеннаяПодсказка</name>
         <id>169</id>
@@ -2532,13 +2528,17 @@
     <items xsi:type="form:Button">
       <name>ФормаНастроитьДополнительно</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Дополнительно</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаНастроитьДополнительноExtendedTooltip</name>
+        <name>ФормаНастроитьДополнительноРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2610,26 +2610,6 @@
     <savedData>true</savedData>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
-        <segments>Объект.пр_МВТ</segments>
-      </tablePath>
-      <columns>
-        <name>ЗначениеВФорме</name>
-        <title>
-          <key>ru</key>
-          <value>Значение в форме</value>
-        </title>
-        <id>1</id>
-        <valueType/>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
         <segments>Объект.Параметры</segments>
       </tablePath>
       <columns>
@@ -2637,10 +2617,6 @@
         <title>
           <key>ru</key>
           <value>Тип</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Type</value>
         </title>
         <id>1</id>
         <valueType>
@@ -2659,10 +2635,6 @@
         <title>
           <key>ru</key>
           <value>Значение</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Value</value>
         </title>
         <id>2</id>
         <valueType>
@@ -2700,10 +2672,6 @@
       <key>ru</key>
       <value>Текст запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query text</value>
-    </title>
     <id>2</id>
     <valueType>
       <types>TextDocument</types>
@@ -2734,10 +2702,6 @@
     <title>
       <key>ru</key>
       <value>Результат запроса</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Query result</value>
     </title>
     <id>4</id>
     <valueType>
@@ -2813,10 +2777,6 @@
       <key>ru</key>
       <value>Показывать план выполнения запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Show query plan</value>
-    </title>
     <id>13</id>
     <valueType>
       <types>Number</types>
@@ -2882,10 +2842,6 @@
     <title>
       <key>ru</key>
       <value>Выводить результаты запроса</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Display query results</value>
     </title>
     <id>19</id>
     <valueType>
@@ -2973,18 +2929,10 @@
       <key>ru</key>
       <value>Запросы</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Queries</value>
-    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Открыть другой запрос</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Open another query</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3007,18 +2955,10 @@
       <key>ru</key>
       <value>Открыть конструктор запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open query designer</value>
-    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Открыть конструктор запроса</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Open query designer</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3036,18 +2976,10 @@
       <key>ru</key>
       <value>Заполнить параметры</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Fill in parameters</value>
-    </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
       <value>Заполнить параметры</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Fill in parameters</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3069,18 +3001,10 @@
       <key>ru</key>
       <value>Дополнительно</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>More</value>
-    </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
       <value>Настроить дополнительно</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Set up additionally</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3102,18 +3026,10 @@
       <key>ru</key>
       <value>Выполнить</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Execute</value>
-    </title>
     <id>5</id>
     <toolTip>
       <key>ru</key>
       <value>Выполнить запрос</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Execute query</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3136,18 +3052,10 @@
       <key>ru</key>
       <value>Выполнить весь запрос</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Execute entire query</value>
-    </title>
     <id>6</id>
     <toolTip>
       <key>ru</key>
       <value>Выполнить запрос с временными таблицами</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Execute a query with temporary tables</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3170,18 +3078,10 @@
       <key>ru</key>
       <value>Сохранить запросы в файл</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save queries to file</value>
-    </title>
     <id>7</id>
     <toolTip>
       <key>ru</key>
       <value>Сохранить запросы в файл</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save queries to file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3204,18 +3104,10 @@
       <key>ru</key>
       <value>Сохранить запросы в другой файл</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save queries to another file</value>
-    </title>
     <id>8</id>
     <toolTip>
       <key>ru</key>
       <value>Сохранить запросы как</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save queries as</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3237,18 +3129,10 @@
       <key>ru</key>
       <value>Открыть</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open</value>
-    </title>
     <id>10</id>
     <toolTip>
       <key>ru</key>
       <value>Выбрать запросы из файла</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Select queries from file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3270,18 +3154,10 @@
       <key>ru</key>
       <value>Текст запроса для конфигуратора</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query text for Designer</value>
-    </title>
     <id>12</id>
     <toolTip>
       <key>ru</key>
       <value>Создать текст запроса для конфигуратора</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Create a query text for Designer</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3303,18 +3179,10 @@
       <key>ru</key>
       <value>Открыть в отдельном окне</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open in a separate window</value>
-    </title>
     <id>9</id>
     <toolTip>
       <key>ru</key>
       <value>Открыть в отдельном окне результат запроса</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Open a query result in a separate window</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3336,18 +3204,10 @@
       <key>ru</key>
       <value>Открыть значение</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open value</value>
-    </title>
     <id>11</id>
     <toolTip>
       <key>ru</key>
       <value>Открыть объект из результата</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Open an object from the result</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3370,18 +3230,10 @@
       <key>ru</key>
       <value>Открыть список</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open list</value>
-    </title>
     <id>13</id>
     <toolTip>
       <key>ru</key>
       <value>Открыть список из результата</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Open a list from the result</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3401,18 +3253,10 @@
       <key>ru</key>
       <value>Скопировать запрос</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Copy query</value>
-    </title>
     <id>14</id>
     <toolTip>
       <key>ru</key>
       <value>Скопировать запрос</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Copy query</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3434,18 +3278,10 @@
       <key>ru</key>
       <value>Выделить/отменить выделение</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Select/clear selected cells</value>
-    </title>
     <id>15</id>
     <toolTip>
       <key>ru</key>
       <value>Выделить ячейки</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Select cells</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3464,18 +3300,10 @@
       <key>ru</key>
       <value>Выполнить выбор результата запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Select a query result</value>
-    </title>
     <id>16</id>
     <toolTip>
       <key>ru</key>
       <value>Выполнить выбор результата запроса</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Select a query result</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3493,18 +3321,10 @@
       <key>ru</key>
       <value>Закомментировать</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Comment selection</value>
-    </title>
     <id>17</id>
     <toolTip>
       <key>ru</key>
       <value>Закомментировать</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Comment selection</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3523,18 +3343,10 @@
       <key>ru</key>
       <value>Раскомментировать</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Uncomment selection</value>
-    </title>
     <id>18</id>
     <toolTip>
       <key>ru</key>
       <value>Раскомментировать</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Uncomment selection</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3553,18 +3365,10 @@
       <key>ru</key>
       <value>Задать уникальный идентификатор</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Set UUID</value>
-    </title>
     <id>19</id>
     <toolTip>
       <key>ru</key>
       <value>Задать уникальный идентификатор</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Set UUID</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3582,18 +3386,10 @@
       <key>ru</key>
       <value>Заполнить из XML</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Fill in from XML</value>
-    </title>
     <id>20</id>
     <toolTip>
       <key>ru</key>
       <value>Заполнить из XML</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Fill in from XML</value>
     </toolTip>
     <use>
       <common>true</common>

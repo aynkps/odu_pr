@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793e6028-024e-40aa-be83-0c00a5eb79cb">
+  <producedTypes>
+    <selectionType typeId="5938b5fb-b937-4422-aaf6-b58252560bec" valueTypeId="ed55e69c-0a51-4616-a817-bc50984dba86"/>
+    <listType typeId="29c0970c-24f9-4eac-b0a3-ba8d95d1fb44" valueTypeId="5335b065-6c4d-42e7-9684-51c9d0a688ef"/>
+    <managerType typeId="48ee0877-a869-4b74-b17e-a4f77f1105d8" valueTypeId="f528fbb1-9e0b-4bb8-8954-746bed263d87"/>
+    <recordSetType typeId="836a659b-6027-454c-b539-a5a3b2acb215" valueTypeId="531da013-13a4-4549-97a3-04c043c6ba04"/>
+    <recordKeyType typeId="b33bc649-5471-4e7e-ba42-7e5c025ec61d" valueTypeId="b65e7db8-2abf-43ec-9751-ffcbdae5599e"/>
+    <recordType typeId="714683d2-742d-4c59-8baa-ea25e8d0ca7b" valueTypeId="93480905-0bbd-49af-b1b0-10f2cb5e04f7"/>
+    <recordManagerType typeId="9fffd31c-acbe-49ab-b80b-9e176c8a6b9c" valueTypeId="d7f583a5-8b90-4cba-9e9f-28c33b807e33"/>
+  </producedTypes>
+  <name>synс_JWT</name>
+  <synonym>
+    <key>ru</key>
+    <value>JWT системы (Synс)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e09b5f7-8676-425a-b5e4-5b509902c1cc">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c21f2d9c-5474-4553-b849-d200779ffe36">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6e29cda8-0e3e-481b-be35-49232ba6c0d0">
+    <name>Access_token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Access token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="26556012-efdb-4b7b-8bc0-72d8cbb8b7be">
+    <name>Refresh_token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Refresh token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="dd0ee8f7-23bf-458e-8260-5fccb72ef8f4">
+    <name>Expires_in</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время действия</value>
+    </synonym>
+    <comment>Время действия токена (в секундах)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="12c26177-582e-4c6f-836a-3b4037a50f46">
+    <name>ВладелецСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец системы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.synс_SystemOwner</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

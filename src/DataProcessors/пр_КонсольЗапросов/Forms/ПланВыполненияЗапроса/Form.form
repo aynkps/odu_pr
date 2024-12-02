@@ -4,16 +4,16 @@
     <key>ru</key>
     <value>План выполнения запроса</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Query plan</value>
-  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаИнформацияОСтоимостиЗапроса</name>
     <id>164</id>
     <items xsi:type="form:FormField">
       <name>СуммарнаяСтоимостьЗапроса</name>
       <id>166</id>
+      <title>
+        <key>ru</key>
+        <value>Сумма общих затрат оптимизатора запросов на выполнение всех операций включая дочерние операторы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -25,10 +25,6 @@
       <toolTip>
         <key>ru</key>
         <value>Сумма общих затрат оптимизатора запросов на выполнение всех операций в всех операторах</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Total optimizer cost of all operations in all operators.</value>
       </toolTip>
       <extendedTooltip>
         <name>СуммарнаяСтоимостьЗапросаРасширеннаяПодсказка</name>
@@ -73,10 +69,6 @@
       <key>ru</key>
       <value>Информация о стоимости запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query cost details</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаИнформацияОСтоимостиЗапросаРасширеннаяПодсказка</name>
       <id>165</id>
@@ -115,10 +107,6 @@
           <key>ru</key>
           <value>Дерево плана выполнения запроса</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Query plan tree</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -131,6 +119,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоОператор</name>
           <id>96</id>
+          <title>
+            <key>ru</key>
+            <value>Оператор</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -184,10 +176,6 @@
           <title>
             <key>ru</key>
             <value>Оператор</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>Operator</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -247,10 +235,6 @@
               <key>ru</key>
               <value>оператора</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Operator</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -298,17 +282,9 @@
                 <key>ru</key>
                 <value>ЧН=0</value>
               </format>
-              <format>
-                <key>en</key>
-                <value>NZ=0</value>
-              </format>
               <editFormat>
                 <key>ru</key>
                 <value>ЧН=0</value>
-              </editFormat>
-              <editFormat>
-                <key>en</key>
-                <value>NZ=0</value>
               </editFormat>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -322,10 +298,6 @@
               <key>ru</key>
               <value>с подчиненными узлами</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Subtree</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -337,10 +309,6 @@
             <toolTip>
               <key>ru</key>
               <value>Общие затраты оптимизатора запросов на выполнение этой и всех предшествующих операций в данной ветке.</value>
-            </toolTip>
-            <toolTip>
-              <key>en</key>
-              <value>Total optimizer cost of this and all previous operations in this branch.</value>
             </toolTip>
             <extendedTooltip>
               <name>ДеревоСтоимостьСтоимостьОбщаяРасширеннаяПодсказка</name>
@@ -382,17 +350,9 @@
                 <key>ru</key>
                 <value>ЧН=0</value>
               </format>
-              <format>
-                <key>en</key>
-                <value>NZ=0</value>
-              </format>
               <editFormat>
                 <key>ru</key>
                 <value>ЧН=0</value>
-              </editFormat>
-              <editFormat>
-                <key>en</key>
-                <value>NZ=0</value>
               </editFormat>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -406,10 +366,6 @@
           <title>
             <key>ru</key>
             <value>Стоимость</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>Cost</value>
           </title>
           <extendedTooltip>
             <name>ДеревоПланаВыполненияЗапросаГруппаСтоимостьРасширеннаяПодсказка</name>
@@ -440,10 +396,6 @@
             <key>ru</key>
             <value>Затраты В/В</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>I/O cost</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -455,10 +407,6 @@
           <toolTip>
             <key>ru</key>
             <value>Приблизительные затраты на выполнение действий ввода-вывода для данной операции. Это значение должно быть минимально возможным.</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Approximate input/output cost of the operation. This value must be minimized.</value>
           </toolTip>
           <extendedTooltip>
             <name>ДеревоЗатратыВводаВыводаРасширеннаяПодсказка</name>
@@ -503,6 +451,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоЗагрузкаЦП</name>
           <id>140</id>
+          <title>
+            <key>ru</key>
+            <value>Загрузка ЦП</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -514,10 +466,6 @@
           <toolTip>
             <key>ru</key>
             <value>Приблизительные затраты на произведение ЦП всех вычислений для данной операции.</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Approximate cost of CPU calculations for this operation.</value>
           </toolTip>
           <extendedTooltip>
             <name>ДеревоЗагрузкаЦПРасширеннаяПодсказка</name>
@@ -562,6 +510,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоСреднийРазмерСтрок</name>
           <id>143</id>
+          <title>
+            <key>ru</key>
+            <value>Средний размер строк</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -573,10 +525,6 @@
           <toolTip>
             <key>ru</key>
             <value>Предполагаемый средний размер строк (в байтах), передаваемых через данный оператор.</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Estimated average row size (in bytes).</value>
           </toolTip>
           <extendedTooltip>
             <name>ДеревоСреднийРазмерСтрокРасширеннаяПодсказка</name>
@@ -628,10 +576,6 @@
               <key>ru</key>
               <value>План</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Est</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -643,10 +587,6 @@
             <toolTip>
               <key>ru</key>
               <value>Предполагаемое количество вызовов данного оператора при выполнении текущего запроса.</value>
-            </toolTip>
-            <toolTip>
-              <key>en</key>
-              <value>Estimated number of the operator executions.</value>
             </toolTip>
             <extendedTooltip>
               <name>ДеревоВызовыПланРасширеннаяПодсказка</name>
@@ -695,10 +635,6 @@
               <key>ru</key>
               <value>Факт.</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Act</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -710,10 +646,6 @@
             <toolTip>
               <key>ru</key>
               <value>Фактическое количество вызовов данного оператора при выполнении текущего запроса.</value>
-            </toolTip>
-            <toolTip>
-              <key>en</key>
-              <value>Actual number of the operator executions.</value>
             </toolTip>
             <extendedTooltip>
               <name>ДеревоВызовыФактРасширеннаяПодсказка</name>
@@ -764,17 +696,9 @@
             <key>ru</key>
             <value>Вызовы</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Executions</value>
-          </title>
           <toolTip>
             <key>ru</key>
             <value>Прогнозируемые и фактические вызовы во время выполнения запроса </value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Estimated and actual executions.</value>
           </toolTip>
           <width>13</width>
           <extendedTooltip>
@@ -809,10 +733,6 @@
               <key>ru</key>
               <value>План</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Est</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -825,11 +745,6 @@
               <key>ru</key>
               <value>Предполагаемое 
 количество строк вывода от данного оператора.</value>
-            </toolTip>
-            <toolTip>
-              <key>en</key>
-              <value>Estimated number of rows
-returned by the operator.</value>
             </toolTip>
             <extendedTooltip>
               <name>ДеревоСтрокиПланРасширеннаяПодсказка</name>
@@ -878,10 +793,6 @@ returned by the operator.</value>
               <key>ru</key>
               <value>Факт.</value>
             </title>
-            <title>
-              <key>en</key>
-              <value>Act</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -895,12 +806,6 @@ returned by the operator.</value>
               <value>Фактическое количество 
 строк, созданных каждым 
 оператором.</value>
-            </toolTip>
-            <toolTip>
-              <key>en</key>
-              <value>Actual number of rows
-returned by the operator.
-</value>
             </toolTip>
             <extendedTooltip>
               <name>ДеревоСтрокиФактРасширеннаяПодсказка</name>
@@ -951,17 +856,9 @@ returned by the operator.
             <key>ru</key>
             <value>Строки</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Rows</value>
-          </title>
           <toolTip>
             <key>ru</key>
             <value>Прогнозируемые и фактические строки во время выполнения запроса </value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Estimated and actual rows.</value>
           </toolTip>
           <width>13</width>
           <extendedTooltip>
@@ -989,6 +886,10 @@ returned by the operator.
         <items xsi:type="form:FormField">
           <name>ДеревоОтступ</name>
           <id>125</id>
+          <title>
+            <key>ru</key>
+            <value>Отступ</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -1214,6 +1115,10 @@ returned by the operator.
       <items xsi:type="form:FormField">
         <name>ОписаниеОператораSQLServer</name>
         <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Описание оператора</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1231,11 +1136,6 @@ returned by the operator.
             <key>ru</key>
             <value>Информацию по планам запросов СУБД см. также в документации по платформе 
 1С:Предприятие 8.3 Приложение 3 &quot;Описание и расположение служебных файлов&quot;, раздел 3.17 &quot;logcfg.xml&quot;</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>DBMS query plans information see also in documentation 
-1C:Enterprise 8.3 platform Application 3 &quot;Service files details and location&quot;, section 3.17 logcfg.xml</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1285,10 +1185,6 @@ returned by the operator.
         <key>ru</key>
         <value>План выполнения запроса SQL сервер</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>SQL server query plan</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаПланВыполненияЗапросаSQLСерверРасширеннаяПодсказка</name>
         <id>45</id>
@@ -1319,10 +1215,6 @@ returned by the operator.
         <title>
           <key>ru</key>
           <value>План выполнения запроса</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Query plan</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1385,10 +1277,6 @@ returned by the operator.
         <key>ru</key>
         <value>План выполнения запроса текстовое представление</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Query plan text presentation</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаПланВыполненияЗапросаТекстовоеПредставлениеРасширеннаяПодсказка</name>
         <id>64</id>
@@ -1419,10 +1307,6 @@ returned by the operator.
         <title>
           <key>ru</key>
           <value>Анимация длительная операция</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Animation long-running operation</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1464,10 +1348,6 @@ returned by the operator.
         <title>
           <key>ru</key>
           <value>Получение плана выполнения запроса...</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Getting a query plan…</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1515,10 +1395,6 @@ returned by the operator.
         <key>ru</key>
         <value>Получение плана выполнения запроса</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Get query plan</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаПолучениеПланаВыполненияЗапросаРасширеннаяПодсказка</name>
         <id>157</id>
@@ -1549,10 +1425,6 @@ returned by the operator.
       <key>ru</key>
       <value>План выполнения запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query plan</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаПланВыполненияЗапросаРасширеннаяПодсказка</name>
       <id>62</id>
@@ -1579,6 +1451,10 @@ returned by the operator.
     <items xsi:type="form:FormField">
       <name>СформированныйСКЛТекстЗапроса</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Сформированный SQL-текст запроса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1640,10 +1516,6 @@ returned by the operator.
       <key>ru</key>
       <value>Сформированный SQL-текст запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Generated SQL query text</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаСформированныйSQLТекстЗапросаРасширеннаяПодсказка</name>
       <id>60</id>
@@ -1681,10 +1553,6 @@ returned by the operator.
         <key>ru</key>
         <value>Выводить</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Display</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1697,10 +1565,6 @@ returned by the operator.
         <key>ru</key>
         <value>Выводит текст запроса и план выполнения запроса в виде имен объектов метаданных или в виде имен объектов базы данных</value>
       </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Select what you want to display in a query text and a query plan: metadata object names or database object names.</value>
-      </toolTip>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <handlers>
         <event>OnChange</event>
@@ -1712,10 +1576,6 @@ returned by the operator.
         <title>
           <key>ru</key>
           <value>Текст запроса с именами колонок и таблиц базы данных можно скопировать в консоль выполнения запросов используемой СУБД для более детального анализа.</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>You can copy a query text with database table and column names to the query console used by the DBMS for more detailed analysis.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1758,10 +1618,6 @@ returned by the operator.
             <key>ru</key>
             <value>Имена реквизитов и объектов метаданных</value>
           </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Metadata object and attribute names</value>
-          </presentation>
           <value xsi:type="core:NumberValue">
             <value>0</value>
           </value>
@@ -1770,10 +1626,6 @@ returned by the operator.
           <presentation>
             <key>ru</key>
             <value>Имена колонок и таблиц базы данных</value>
-          </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Database table and column names</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1</value>
@@ -1784,6 +1636,10 @@ returned by the operator.
     <items xsi:type="form:FormField">
       <name>ПоказыватьПланВыполненияЗапросаВВиде</name>
       <id>174</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать план выполнения запроса в виде</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -1794,10 +1650,6 @@ returned by the operator.
       <toolTip>
         <key>ru</key>
         <value>Показывать план выполнения запроса в виде дерева или в текстовом виде как возвращает его база данных</value>
-      </toolTip>
-      <toolTip>
-        <key>en</key>
-        <value>Show a query plan as a tree or a text as the database returns it.</value>
       </toolTip>
       <handlers>
         <event>OnChange</event>
@@ -1845,10 +1697,6 @@ returned by the operator.
             <key>ru</key>
             <value>Таблицы</value>
           </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Table</value>
-          </presentation>
           <value xsi:type="core:NumberValue">
             <value>0</value>
           </value>
@@ -1857,10 +1705,6 @@ returned by the operator.
           <presentation>
             <key>ru</key>
             <value>Текста</value>
-          </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Text</value>
           </presentation>
           <value xsi:type="core:NumberValue">
             <value>1</value>
@@ -1876,10 +1720,6 @@ returned by the operator.
     <title>
       <key>ru</key>
       <value>Режимы выводы информации</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Information display modes</value>
     </title>
     <extendedTooltip>
       <name>РежимыВыводыИнформацииРасширеннаяПодсказка</name>
@@ -1953,10 +1793,6 @@ returned by the operator.
       <key>ru</key>
       <value>План выполнения запроса текст</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query plan text</value>
-    </title>
     <id>2</id>
     <valueType>
       <types>String</types>
@@ -1975,10 +1811,6 @@ returned by the operator.
       <key>ru</key>
       <value>Сформированный SQL-текст запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Generated SQL query text</value>
-    </title>
     <id>3</id>
     <valueType>
       <types>String</types>
@@ -1996,10 +1828,6 @@ returned by the operator.
     <title>
       <key>ru</key>
       <value>Вид отображения данных</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Data representation type</value>
     </title>
     <id>4</id>
     <valueType>
@@ -2020,10 +1848,6 @@ returned by the operator.
     <title>
       <key>ru</key>
       <value>Описание оператора</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Operator details</value>
     </title>
     <id>8</id>
     <valueType>
@@ -2141,10 +1965,6 @@ returned by the operator.
       <key>ru</key>
       <value>Дерево плана выполнения запроса</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Query plan tree</value>
-    </title>
     <id>15</id>
     <valueType>
       <types>ValueTree</types>
@@ -2160,10 +1980,6 @@ returned by the operator.
       <title>
         <key>ru</key>
         <value>Оператор</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Operator</value>
       </title>
       <id>1</id>
       <valueType>
@@ -2183,10 +1999,6 @@ returned by the operator.
         <key>ru</key>
         <value>Отступ</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Indent</value>
-      </title>
       <id>2</id>
       <valueType>
         <types>Number</types>
@@ -2204,10 +2016,6 @@ returned by the operator.
       <title>
         <key>ru</key>
         <value>Строки факт</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Actual rows</value>
       </title>
       <id>3</id>
       <valueType>
@@ -2227,10 +2035,6 @@ returned by the operator.
         <key>ru</key>
         <value>Вызовы факт</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Actual executions</value>
-      </title>
       <id>4</id>
       <valueType>
         <types>Number</types>
@@ -2249,10 +2053,6 @@ returned by the operator.
         <key>ru</key>
         <value>Вызовы план</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Estimated executions</value>
-      </title>
       <id>5</id>
       <valueType>
         <types>Number</types>
@@ -2270,10 +2070,6 @@ returned by the operator.
       <title>
         <key>ru</key>
         <value>Затраты ввода вывода</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Input/output costs</value>
       </title>
       <id>6</id>
       <valueType>
@@ -2295,10 +2091,6 @@ returned by the operator.
         <key>ru</key>
         <value>Загрузка ЦП</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>CPU cost</value>
-      </title>
       <id>7</id>
       <valueType>
         <types>String</types>
@@ -2319,10 +2111,6 @@ returned by the operator.
         <key>ru</key>
         <value>Средний размер строк</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Average row size</value>
-      </title>
       <id>8</id>
       <valueType>
         <types>String</types>
@@ -2342,10 +2130,6 @@ returned by the operator.
       <title>
         <key>ru</key>
         <value>Стоимость общая</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Total cost</value>
       </title>
       <id>9</id>
       <valueType>
@@ -2368,10 +2152,6 @@ returned by the operator.
         <key>ru</key>
         <value>Строки план</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Estimated rows</value>
-      </title>
       <id>10</id>
       <valueType>
         <types>Number</types>
@@ -2392,10 +2172,6 @@ returned by the operator.
         <key>ru</key>
         <value>Оператор метаданные</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Operator metadata</value>
-      </title>
       <id>11</id>
       <valueType>
         <types>String</types>
@@ -2413,10 +2189,6 @@ returned by the operator.
       <title>
         <key>ru</key>
         <value>Стоимость</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Cost</value>
       </title>
       <id>12</id>
       <valueType>
@@ -2470,10 +2242,6 @@ returned by the operator.
       <key>ru</key>
       <value>Сумма общих затрат оптимизатора запросов на выполнение всех операций включая дочерние операторы</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Total optimizer cost of all operations including child operators</value>
-    </title>
     <id>16</id>
     <valueType>
       <types>String</types>
@@ -2491,10 +2259,6 @@ returned by the operator.
     <title>
       <key>ru</key>
       <value>Показывать план выполнения запроса в виде</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Show query plan as</value>
     </title>
     <id>17</id>
     <valueType>

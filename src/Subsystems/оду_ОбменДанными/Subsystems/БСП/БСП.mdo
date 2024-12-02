@@ -9,5 +9,12 @@
   <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.Организации</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.КорректировкаРегистров</content>
+  <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <content>InformationRegister.ДополнительныеСведения</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

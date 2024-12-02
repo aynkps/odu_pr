@@ -4,10 +4,6 @@
     <key>ru</key>
     <value>Текст запроса для конфигуратора</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Query text for Designer</value>
-  </title>
   <items xsi:type="form:FormField">
     <name>ТекстЗапроса</name>
     <id>1</id>
@@ -21,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстЗапросаExtendedTooltip</name>
+      <name>ТекстЗапросаРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -141,6 +137,13 @@
       <common>true</common>
     </edit>
   </attributes>
+  <parameters>
+    <name>ТекстЗапроса</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

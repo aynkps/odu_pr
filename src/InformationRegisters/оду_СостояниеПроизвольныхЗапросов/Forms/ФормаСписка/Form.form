@@ -764,10 +764,6 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>

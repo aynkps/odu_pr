@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a05c632-f1f0-49a8-92dc-99094e00aba6">
+  <name>ВРазработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>В разработке</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.пр_Расписания</content>
+  <content>Catalog.пр_ЗадачиРазработки</content>
+  <content>InformationRegister.пр_СписокЗадачРазработки</content>
+  <content>Catalog.пр_Запросы</content>
+  <content>Enum.пр_МестоКомпиляцииКода</content>
+  <parentSubsystem>Subsystem.пр_ПодсистемаРазработчика</parentSubsystem>
+</mdclass:Subsystem>

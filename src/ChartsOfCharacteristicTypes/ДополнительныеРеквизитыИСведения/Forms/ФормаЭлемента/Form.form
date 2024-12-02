@@ -3621,7 +3621,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -3651,7 +3651,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:d82ca05c-2966-4d77-9a39-a1eea087bfa7</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -3681,7 +3681,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:b41f5bbc-ba5d-4888-8cd1-db246a371418</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -3711,7 +3711,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:a2f737a8-0114-4e86-a214-45e5c213fa65</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4014,7 +4014,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4044,7 +4044,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:d82ca05c-2966-4d77-9a39-a1eea087bfa7</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4074,7 +4074,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:b41f5bbc-ba5d-4888-8cd1-db246a371418</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4104,7 +4104,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:a2f737a8-0114-4e86-a214-45e5c213fa65</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4413,7 +4413,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4443,7 +4443,7 @@
                           <horizontalAlign>Left</horizontalAlign>
                         </extInfo>
                       </extendedTooltip>
-                      <commandName>0</commandName>
+                      <commandName>57:d82ca05c-2966-4d77-9a39-a1eea087bfa7</commandName>
                       <representation>Auto</representation>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -4640,7 +4640,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>0</commandName>
+                    <commandName>57:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4670,7 +4670,7 @@
                         <horizontalAlign>Left</horizontalAlign>
                       </extInfo>
                     </extendedTooltip>
-                    <commandName>0</commandName>
+                    <commandName>57:d82ca05c-2966-4d77-9a39-a1eea087bfa7</commandName>
                     <representation>Auto</representation>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -5548,6 +5548,7 @@
 	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ЗначенияСвойствОбъектов.Представления КАК ЗначенияПредставленияПереопределяемый
 		ПО (ЗначенияПредставленияПереопределяемый.Ссылка = ЗначенияПереопределяемый.Ссылка)
 		И ЗначенияПредставленияПереопределяемый.КодЯзыка = &amp;КодЯзыка</queryText>
+      <mainTable>1:b18d312b-f9c3-4f37-ac77-d499e949f154</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddba0682-87ae-4d2d-b70a-d381c16b6d31">
+  <producedTypes>
+    <selectionType typeId="6ff20c2e-2539-4d88-a446-a38f8aca1e4d" valueTypeId="aafda7b9-c17a-49c7-bf30-582a414e464e"/>
+    <listType typeId="1acad52d-6224-46af-8376-0053273d8a84" valueTypeId="6e6348a2-0cff-44b6-acdc-ab1b80086b6b"/>
+    <managerType typeId="ca787cb7-e888-439c-9d6a-4bc3dd409c86" valueTypeId="594da235-54c4-4695-a6c7-6d9dad2cf28d"/>
+    <recordSetType typeId="39d9f5c9-8845-40e6-b451-9255d5d7796a" valueTypeId="2f78dcdb-7061-4363-8284-a3d75561aa46"/>
+    <recordKeyType typeId="0927573a-bfa6-45fd-9da2-9930876b0a07" valueTypeId="9bfedad7-5893-4f8c-9810-951f6e3d8563"/>
+    <recordType typeId="90f1146c-c29e-4a37-b670-243faba09a8d" valueTypeId="1f986763-4ca8-4355-8eaf-1d8101f11157"/>
+    <recordManagerType typeId="c1012557-62cf-4832-b139-5b674451f5de" valueTypeId="61801d3e-220c-4960-9648-0ed28dcec8e1"/>
+  </producedTypes>
+  <name>оду_СоответствиеВерсийКонфигурацийНастройкеКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие версий конфигураций -  настройке конвертации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Переделать на С_Конфигурации + подчиненные С_ВерсииКонфигурации
+</value>
+  </explanation>
+  <resources uuid="fb352bad-ad96-4261-aab8-ee24db877b21">
+    <name>НастройкаКонвертацииОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка конвертации обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b1fae963-9a45-4d19-aa52-4346924a8a5b">
+    <name>ВерсияКонфигурацииИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b753453c-5db2-46da-9f0a-6d53d2512eb2">
+    <name>ВерсияКонфигурацииПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации приемника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

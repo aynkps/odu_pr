@@ -4,20 +4,12 @@
     <key>ru</key>
     <value>Выбор запроса</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Query choice</value>
-  </title>
   <items xsi:type="form:Table">
     <name>Запросы</name>
     <id>1</id>
     <title>
       <key>ru</key>
       <value>Запросы</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Queries</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -44,7 +36,7 @@
         <name>ЗапросыИмяПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЗапросыИмяExtendedTooltip</name>
+        <name>ЗапросыИмяРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -93,7 +85,7 @@
         <segments>Объект.Запросы.Идентификатор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗапросыIDExtendedTooltip</name>
+        <name>ЗапросыIDРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -137,10 +129,6 @@
           <key>ru</key>
           <value>Время выполнения (сек.)</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Runtime (sec)</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -150,7 +138,7 @@
           <segments>Объект.Запросы.ВремяВыполнения</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыВремяВыполненияExtendedTooltip</name>
+          <name>ЗапросыВремяВыполненияРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -200,7 +188,7 @@
           <segments>Объект.Запросы.КоличествоСтрок</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗапросыКоличествоСтрокExtendedTooltip</name>
+          <name>ЗапросыКоличествоСтрокРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -247,13 +235,9 @@
         <key>ru</key>
         <value>Запроса</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Query</value>
-      </title>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаЗапросаExtendedTooltip</name>
+        <name>ГруппаЗапросаРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -413,7 +397,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ЗапросыExtendedTooltip</name>
+      <name>ЗапросыРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -433,13 +417,17 @@
       <items xsi:type="form:Button">
         <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросов</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Сравнить результаты запросов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовExtendedTooltip</name>
+          <name>ЗапросыКонтекстноеМенюСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -504,7 +492,7 @@
       <segments>Объект.ИмяФайла</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ИмяФайлаExtendedTooltip</name>
+      <name>ИмяФайлаРасширеннаяПодсказка</name>
       <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -548,13 +536,17 @@
     <items xsi:type="form:Button">
       <name>ЗапросыВыбратьЗапрос</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗапросыВыбратьЗапросExtendedTooltip</name>
+        <name>ЗапросыВыбратьЗапросРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -588,10 +580,6 @@
         <key>ru</key>
         <value>Форма группа добавить</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Form group add</value>
-      </title>
       <extendedTooltip>
         <name>ФормаГруппаДобавитьРасширеннаяПодсказка</name>
         <id>26</id>
@@ -617,13 +605,17 @@
       <items xsi:type="form:Button">
         <name>ЗапросыВосстановитьЗапросыИзФайла</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыВосстановитьЗапросыИзФайлаExtendedTooltip</name>
+          <name>ЗапросыВосстановитьЗапросыИзФайлаРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -647,13 +639,17 @@
       <items xsi:type="form:Button">
         <name>ФормаДобавитьЗапросыИзФайла</name>
         <id>22</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить запросы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаДобавитьЗапросыИзФайлаExtendedTooltip</name>
+          <name>ФормаДобавитьЗапросыИзФайлаРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -677,13 +673,17 @@
       <items xsi:type="form:Button">
         <name>ЗапросыСохранитьЗапросыВФайл</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыСохранитьЗапросыВФайлExtendedTooltip</name>
+          <name>ЗапросыСохранитьЗапросыВФайлРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -707,13 +707,17 @@
       <items xsi:type="form:Button">
         <name>ЗапросыСохранитьЗапросыВДругойФайл</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить как</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗапросыСохранитьЗапросыВДругойФайлExtendedTooltip</name>
+          <name>ЗапросыСохранитьЗапросыВДругойФайлРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -743,10 +747,6 @@
         <key>ru</key>
         <value>Форма группа управление</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Form group management</value>
-      </title>
       <extendedTooltip>
         <name>ФормаГруппаУправлениеРасширеннаяПодсказка</name>
         <id>27</id>
@@ -769,13 +769,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСравнитьРезультатыЗапросов</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Сравнить результаты запросов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСравнитьРезультатыЗапросовExtendedTooltip</name>
+        <name>ФормаСравнитьРезультатыЗапросовРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -841,10 +845,6 @@
           <key>ru</key>
           <value>Тип в форме</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Type in the form</value>
-        </title>
         <id>1</id>
         <valueType>
           <types>String</types>
@@ -862,10 +862,6 @@
         <title>
           <key>ru</key>
           <value>Значение в форме</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Value in the form</value>
         </title>
         <id>2</id>
         <valueType>
@@ -958,18 +954,10 @@
       <key>ru</key>
       <value>Сохранить</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save</value>
-    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Сохранить запросы в файл</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save queries to file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -992,18 +980,10 @@
       <key>ru</key>
       <value>Открыть</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Open</value>
-    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Восстановить запросы из файла</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Recover queries from file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1026,18 +1006,10 @@
       <key>ru</key>
       <value>Выбрать</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Select</value>
-    </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
       <value>Выбрать запрос</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Select a query</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1055,18 +1027,10 @@
       <key>ru</key>
       <value>Сохранить как</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save as</value>
-    </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
       <value>Сохранить запросы в другой файл</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save queries to another file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1088,18 +1052,10 @@
       <key>ru</key>
       <value>Добавить запросы</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Add queries</value>
-    </title>
     <id>5</id>
     <toolTip>
       <key>ru</key>
       <value>Добавить запросы из файла</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Add queries from file</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1121,18 +1077,10 @@
       <key>ru</key>
       <value>Сравнить результаты запросов</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Compare query results</value>
-    </title>
     <id>6</id>
     <toolTip>
       <key>ru</key>
       <value>Сравнить результаты запросов</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Compare query results</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1148,6 +1096,13 @@
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>АдресХранилища</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

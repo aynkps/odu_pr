@@ -4,16 +4,16 @@
     <key>ru</key>
     <value>Граница</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Border</value>
-  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаТип</name>
     <id>5</id>
     <items xsi:type="form:FormField">
       <name>Тип</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Тип</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -23,7 +23,7 @@
         <segments>Тип</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипExtendedTooltip</name>
+        <name>ТипРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -69,6 +69,10 @@
     <items xsi:type="form:FormField">
       <name>ВидГраницы</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Вид границы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -78,7 +82,7 @@
         <segments>ВидГраницыФормы</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВидГраницыExtendedTooltip</name>
+        <name>ВидГраницыРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -126,10 +130,6 @@
       <key>ru</key>
       <value>Тип</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Type</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаТипРасширеннаяПодсказка</name>
       <id>12</id>
@@ -158,6 +158,10 @@
   <items xsi:type="form:FormField">
     <name>ЗначениеВФорме</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Значение</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -171,7 +175,7 @@
       <name>ЗначениеВФормеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ЗначениеВФормеExtendedTooltip</name>
+      <name>ЗначениеВФормеРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -219,13 +223,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьГраницу</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьГраницуExtendedTooltip</name>
+        <name>ФормаЗаписатьГраницуРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -295,10 +303,6 @@
           <key>ru</key>
           <value>Тип в форме</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Type in the form</value>
-        </title>
         <id>1</id>
         <valueType>
           <types>String</types>
@@ -316,10 +320,6 @@
         <title>
           <key>ru</key>
           <value>Значение в форме</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Value in the form</value>
         </title>
         <id>2</id>
         <valueType>
@@ -403,10 +403,6 @@
       <key>ru</key>
       <value>Вид границы</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Boundary kind</value>
-    </title>
     <id>6</id>
     <valueType>
       <types>String</types>
@@ -441,10 +437,6 @@
       <key>ru</key>
       <value>Тип</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Type</value>
-    </title>
     <id>8</id>
     <valueType>
       <types>String</types>
@@ -462,10 +454,6 @@
     <title>
       <key>ru</key>
       <value>Значение</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Value</value>
     </title>
     <id>9</id>
     <valueType/>
@@ -496,18 +484,10 @@
       <key>ru</key>
       <value>Записать и закрыть</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save and close</value>
-    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Записать границу</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save boundary</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -520,6 +500,13 @@
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>АдресХранилища</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -39,36 +39,38 @@
   <commonPictures>CommonPicture.ТелеграмБольшойЛоготип</commonPictures>
   <commonPictures>CommonPicture.УОД</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
-  <roles>Role.пр_Администратор</roles>
   <roles>Role.оду_Администрирование</roles>
-  <commonModules>CommonModule.пр_Общий</commonModules>
-  <commonModules>CommonModule.пр_Клиент</commonModules>
-  <commonModules>CommonModule.пр_КлиентСервер</commonModules>
-  <commonModules>CommonModule.пр_НастройкиПовтИсп</commonModules>
-  <commonModules>CommonModule.пр_НастройкиКлиентПовтИсп</commonModules>
-  <commonModules>CommonModule.оду_Общий</commonModules>
-  <commonModules>CommonModule.оду_ОбщийПовтИсп</commonModules>
+  <roles>Role.пр_Администратор</roles>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.оду_Клиент</commonModules>
   <commonModules>CommonModule.оду_ОбменДанными</commonModules>
+  <commonModules>CommonModule.оду_Общий</commonModules>
+  <commonModules>CommonModule.оду_ОбщийПовтИсп</commonModules>
   <commonModules>CommonModule.оду_ПроизвольныеЗарпосы</commonModules>
   <commonModules>CommonModule.оду_Сервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
-  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
-  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.пр_Клиент</commonModules>
+  <commonModules>CommonModule.пр_КлиентСервер</commonModules>
+  <commonModules>CommonModule.пр_НастройкиКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.пр_НастройкиПовтИсп</commonModules>
+  <commonModules>CommonModule.пр_Общий</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.synс_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.synс_ОбщегоНазначенияПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.оду_ПланОбмена</exchangePlans>
   <httpServices>HTTPService.оду_universalExchange</httpServices>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменение</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеРС</eventSubscriptions>
-  <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.оду_ОтложенноеПроведение</scheduledJobs>
+  <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
   <functionalOptions>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</functionalOptions>
   <definedTypes>DefinedType.ВладелецДополнительныхСведений</definedTypes>
   <definedTypes>DefinedType.ВладелецМеток</definedTypes>
@@ -77,39 +79,48 @@
   <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
   <commonForms>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</commonForms>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
-  <catalogs>Catalog.пр_ЗадачиРазработки</catalogs>
-  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
   <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
-  <catalogs>Catalog.пр_Расписания</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
+  <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.пр_ЗадачиРазработки</catalogs>
+  <catalogs>Catalog.пр_Запросы</catalogs>
+  <catalogs>Catalog.пр_Расписания</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.synс_HeadersHTTP</catalogs>
+  <catalogs>Catalog.synс_Methods</catalogs>
+  <catalogs>Catalog.synс_Server</catalogs>
+  <catalogs>Catalog.synс_Services</catalogs>
+  <catalogs>Catalog.synс_SystemOwner</catalogs>
   <documents>Document.КорректировкаРегистров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
   <enums>Enum.оду_РежимОбмена</enums>
+  <enums>Enum.оду_СобытияРегистрацииОбмена</enums>
   <enums>Enum.оду_СостоянияОбмена</enums>
+  <enums>Enum.оду_СостоянияПроизвольногоЗапроса</enums>
   <enums>Enum.оду_СпособОбменаДанными</enums>
   <enums>Enum.пр_МестоКомпиляцииКода</enums>
-  <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
-  <enums>Enum.оду_СобытияРегистрацииОбмена</enums>
-  <enums>Enum.оду_СостоянияПроизвольногоЗапроса</enums>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.оду_УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.пр_КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.оду_ВерсииПравилОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиУчастниковОбмена</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.пр_СписокЗадачРазработки</informationRegisters>
-  <informationRegisters>InformationRegister.пр_НастройкиРаботыМодулейМетодов</informationRegisters>
   <informationRegisters>InformationRegister.оду_СинхронизацияРегистровУчета</informationRegisters>
-  <informationRegisters>InformationRegister.пр_Логи</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СоответствиеВерсийКонфигурацийНастройкеКонвертации</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_СостояниеПроизвольныхЗапросов</informationRegisters>
-  <informationRegisters>InformationRegister.оду_ВерсииПравилОбменаДанными</informationRegisters>
+  <informationRegisters>InformationRegister.пр_Логи</informationRegisters>
+  <informationRegisters>InformationRegister.пр_НастройкиРаботыМодулейМетодов</informationRegisters>
+  <informationRegisters>InformationRegister.пр_СписокЗадачРазработки</informationRegisters>
+  <informationRegisters>InformationRegister.synс_ConnectionSettings</informationRegisters>
+  <informationRegisters>InformationRegister.synс_JWT</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

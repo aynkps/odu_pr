@@ -4,20 +4,12 @@
     <key>ru</key>
     <value>Таблица значений</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Value table</value>
-  </title>
   <items xsi:type="form:Table">
     <name>НастройкиТаблицыЗначений</name>
     <id>1</id>
     <title>
       <key>ru</key>
       <value>Настройки таблицы значений</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Value table settings</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -31,6 +23,10 @@
     <items xsi:type="form:FormField">
       <name>НастройкиТаблицыЗначенийНаименованиеКолонки</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование колонки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -85,6 +81,10 @@
     <items xsi:type="form:FormField">
       <name>НастройкиТаблицыЗначенийТипКолонки</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Тип колонки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -325,10 +325,6 @@
       <key>ru</key>
       <value>Таблица значений параметр</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Value table parameter</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -466,7 +462,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаЗначенийПараметрExtendedTooltip</name>
+      <name>ТаблицаЗначенийПараметрРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -519,6 +515,10 @@
     <items xsi:type="form:Button">
       <name>НастройкиТаблицыЗначенийВыгрузитьТаблицуЗначений</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -557,17 +557,13 @@
           <key>ru</key>
           <value>Добавить колонку</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Add column</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаДобавитьExtendedTooltip</name>
+          <name>ФормаДобавитьРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -597,7 +593,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСкопироватьExtendedTooltip</name>
+          <name>ФормаСкопироватьРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -627,7 +623,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаИзменитьExtendedTooltip</name>
+          <name>ФормаИзменитьРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -657,7 +653,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаУдалитьExtendedTooltip</name>
+          <name>ФормаУдалитьРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -687,7 +683,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоВозрастаниюExtendedTooltip</name>
+          <name>ФормаСортироватьСписокПоВозрастаниюРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -717,7 +713,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСортироватьСписокПоУбываниюExtendedTooltip</name>
+          <name>ФормаСортироватьСписокПоУбываниюРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -746,10 +742,6 @@
       <title>
         <key>ru</key>
         <value>Форма группа кнопок</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Form button group</value>
       </title>
       <extendedTooltip>
         <name>ФормаГруппаКнопокРасширеннаяПодсказка</name>
@@ -812,10 +804,6 @@
           <key>ru</key>
           <value>Тип в форме</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Type in the form</value>
-        </title>
         <id>1</id>
         <valueType>
           <types>String</types>
@@ -833,10 +821,6 @@
         <title>
           <key>ru</key>
           <value>Значение в форме</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Value in the form</value>
         </title>
         <id>2</id>
         <valueType>
@@ -869,10 +853,6 @@
       <key>ru</key>
       <value>Настройки таблицы значений</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Value table settings</value>
-    </title>
     <id>2</id>
     <valueType>
       <types>ValueTable</types>
@@ -888,10 +868,6 @@
       <title>
         <key>ru</key>
         <value>Наименование колонки</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Column title</value>
       </title>
       <id>1</id>
       <valueType>
@@ -911,10 +887,6 @@
         <key>ru</key>
         <value>Тип колонки</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Column type</value>
-      </title>
       <id>2</id>
       <valueType>
         <types>TypeDescription</types>
@@ -932,10 +904,6 @@
     <title>
       <key>ru</key>
       <value>Таблица значений параметр</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Value table parameter</value>
     </title>
     <id>3</id>
     <valueType>
@@ -1024,18 +992,10 @@
       <key>ru</key>
       <value>Записать и закрыть</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save and close</value>
-    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
       <value>Записать таблицу значений в параметр</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save a value table to the parameter</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1048,6 +1008,13 @@
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>АдресХранилища</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

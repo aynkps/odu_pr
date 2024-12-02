@@ -10,14 +10,7 @@
     <key>ru</key>
     <value>Подсистема разработки</value>
   </explanation>
-  <content>InformationRegister.пр_НастройкиРаботыМодулейМетодов</content>
-  <content>CommonModule.пр_НастройкиПовтИсп</content>
-  <content>CommonModule.пр_Клиент</content>
-  <content>CommonModule.пр_КлиентСервер</content>
-  <content>CommonModule.пр_Общий</content>
-  <content>CommonModule.пр_НастройкиКлиентПовтИсп</content>
-  <content>InformationRegister.пр_Логи</content>
-  <content>DataProcessor.пр_КонсольЗапросов</content>
-  <content>Role.пр_Администратор</content>
   <subsystems>БСП</subsystems>
+  <subsystems>Сервис</subsystems>
+  <subsystems>ВРазработке</subsystems>
 </mdclass:Subsystem>

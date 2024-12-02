@@ -19,5 +19,10 @@
   <content>CommonModule.Пользователи</content>
   <content>CommonModule.ОбновлениеИнформационнойБазы</content>
   <content>SessionParameter.ТекущийПользователь</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>DefinedType.ВладелецМеток</content>
   <parentSubsystem>Subsystem.пр_ПодсистемаРазработчика</parentSubsystem>
 </mdclass:Subsystem>

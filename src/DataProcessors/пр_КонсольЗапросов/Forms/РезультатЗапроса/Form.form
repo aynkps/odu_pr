@@ -4,13 +4,13 @@
     <key>ru</key>
     <value>Результат запроса</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Query result</value>
-  </title>
   <items xsi:type="form:FormField">
     <name>Результат</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Результат</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -21,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>РезультатExtendedTooltip</name>
+      <name>РезультатРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -74,13 +74,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакрыть</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -143,10 +147,6 @@
       <key>ru</key>
       <value>Результат</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Result</value>
-    </title>
     <id>2</id>
     <valueType>
       <types>SpreadsheetDocument</types>
@@ -165,18 +165,10 @@
       <key>ru</key>
       <value>Закрыть</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Close</value>
-    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Закрыть форму</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Close form</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -188,6 +180,12 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>РезультатЗапроса</name>
+    <valueType>
+      <types>SpreadsheetDocument</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

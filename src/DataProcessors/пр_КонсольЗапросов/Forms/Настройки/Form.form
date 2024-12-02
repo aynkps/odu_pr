@@ -4,10 +4,6 @@
     <key>ru</key>
     <value>Настройки</value>
   </title>
-  <title>
-    <key>en</key>
-    <value>Settings</value>
-  </title>
   <items xsi:type="form:FormGroup">
     <name>Автосохранение</name>
     <id>10</id>
@@ -17,10 +13,6 @@
       <title>
         <key>ru</key>
         <value>Автоматически сохранять каждые (мин.):</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Save automatically every (min.):</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -32,7 +24,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ИспользоватьАвтосохранениеExtendedTooltip</name>
+        <name>ИспользоватьАвтосохранениеРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -70,10 +62,6 @@
         <key>ru</key>
         <value>Период автосохранения (с)</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Autosave period (s)</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -84,7 +72,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПериодАвтосохраненияExtendedTooltip</name>
+        <name>ПериодАвтосохраненияРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -133,12 +121,8 @@
       <key>ru</key>
       <value>Автосохранение</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Autosave</value>
-    </title>
     <extendedTooltip>
-      <name>АвтосохранениеExtendedTooltip</name>
+      <name>АвтосохранениеРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -169,10 +153,6 @@
       <key>ru</key>
       <value>Выводить в результатах запроса значения ссылок</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Output reference values in query results</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -183,7 +163,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокExtendedTooltip</name>
+      <name>ВыводитьВРезультатахЗапросаЗначенияСсылокРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -227,7 +207,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ЧередованиеЦветовВРезультатеЗапросаExtendedTooltip</name>
+      <name>ЧередованиеЦветовВРезультатеЗапросаРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -270,7 +250,7 @@
       <segments>Объект.ТипОбхода</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТипОбходаExtendedTooltip</name>
+      <name>ТипОбходаРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -318,17 +298,13 @@
         <key>ru</key>
         <value>Записать и закрыть</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Save and close</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьExtendedTooltip</name>
+        <name>ЗаписатьРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -390,18 +366,10 @@
       <key>ru</key>
       <value>Записать</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Save</value>
-    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Записать</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Save the changes.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -413,6 +381,13 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>АдресХранилища</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

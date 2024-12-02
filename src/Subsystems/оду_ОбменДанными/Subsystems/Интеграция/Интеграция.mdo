@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f98da3bd-bd30-4a14-ada7-5514c5477183">
+  <name>Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.synс_JWT</content>
+  <content>Catalog.synс_Server</content>
+  <content>Catalog.synс_SystemOwner</content>
+  <content>Catalog.synс_Services</content>
+  <content>Catalog.synс_Methods</content>
+  <content>Catalog.synс_HeadersHTTP</content>
+  <content>InformationRegister.synс_ConnectionSettings</content>
+  <content>CommonModule.synс_ОбщегоНазначения</content>
+  <content>CommonModule.synс_ОбщегоНазначенияПовтИсп</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>
