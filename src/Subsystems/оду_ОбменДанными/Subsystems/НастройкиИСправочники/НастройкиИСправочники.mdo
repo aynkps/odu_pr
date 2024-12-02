@@ -21,5 +21,13 @@
   <content>Enum.оду_СостоянияОбмена</content>
   <content>Enum.оду_РежимОбмена</content>
   <content>InformationRegister.оду_СоответствиеВерсийКонфигурацийНастройкеКонвертации</content>
+  <content>DefinedType.оду_ДокументыРегистрации</content>
+  <content>DefinedType.оду_ОбъектыРегистрации</content>
+  <content>DefinedType.оду_РегистрыРегистрации</content>
+  <content>InformationRegister.оду_НастройкиОтборовОбъектовОбмена</content>
+  <content>Catalog.оду_НастройкаОтборовОбмена</content>
+  <content>InformationRegister.оду_НастройкиОтборовУчастниковОбмена</content>
+  <content>ChartOfCharacteristicTypes.оду_ПараметрыОбъектаОбмена</content>
+  <content>InformationRegister.оду_НастройкаПараметровОбъектовОбмена</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

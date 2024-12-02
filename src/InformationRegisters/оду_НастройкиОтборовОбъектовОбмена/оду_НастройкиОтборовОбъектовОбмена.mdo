@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="838db984-0dea-43b6-aeb7-ef67c8b6f504">
+  <producedTypes>
+    <selectionType typeId="0f419890-ee25-41da-b6ea-45a8af38e151" valueTypeId="19f1bd09-9790-4b39-8ad7-92a061cfb42e"/>
+    <listType typeId="754a5bc4-0675-4fbc-b6d5-8414b4c4b1ab" valueTypeId="4c14369d-3a8a-408a-b1bd-a1985369179c"/>
+    <managerType typeId="15f83569-0a34-4e8e-8b7b-71de0a3a18ae" valueTypeId="c6417931-3c35-4f5b-9a5c-7edd558adea7"/>
+    <recordSetType typeId="78035209-194a-4d90-9930-3a4e64230441" valueTypeId="91e36bf0-570f-470d-bcfa-2980f64fa96a"/>
+    <recordKeyType typeId="fdc091a6-ce4d-4952-b386-56a8fefa29c4" valueTypeId="1555932c-ba65-4b8e-be01-80622d35a61d"/>
+    <recordType typeId="1ea3e2c6-dd34-460a-9a7f-594820480785" valueTypeId="53b626c8-168c-43b9-95d6-0102a5a290ff"/>
+    <recordManagerType typeId="7e14f3e0-188a-4563-ab3d-93a3a4062cc2" valueTypeId="4b93b837-8cbc-4d96-b59c-59886bdb8a93"/>
+  </producedTypes>
+  <name>оду_НастройкиОтборовОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отборов объектов обмена (УОД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.оду_НастройкиОтборовОбъектовОбмена.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5068646b-90e2-4c25-bef0-b280bf080d5b">
+    <name>ОбъектОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a703e45d-f120-4a26-b781-898089953ba9">
+    <name>ПутьКДаннымОбъектаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к данным объекта обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>333</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="816b7242-99e9-43bb-9851-14daaaebd0be">
+    <name>НастройкаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отбора</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.оду_НастройкаОтборовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bc10794d-075a-4f8e-9706-4f5b9f9e681d">
+    <name>ТипXMLОбъектаИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип XML объекта источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b59554b2-3915-4ab3-b646-8ee4c2598a4f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

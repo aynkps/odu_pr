@@ -39,11 +39,13 @@
   <commonPictures>CommonPicture.ТелеграмБольшойЛоготип</commonPictures>
   <commonPictures>CommonPicture.УОД</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
-  <roles>Role.оду_Администрирование</roles>
   <roles>Role.пр_Администратор</roles>
+  <roles>Role.оду_Администрирование</roles>
+  <commonModules>CommonModule.synс_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.synс_ОбщегоНазначенияПовтИсп</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.оду_Клиент</commonModules>
   <commonModules>CommonModule.оду_ОбменДанными</commonModules>
@@ -59,31 +61,31 @@
   <commonModules>CommonModule.пр_Общий</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.synс_ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.synс_ОбщегоНазначенияПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.оду_ПланОбмена</exchangePlans>
   <httpServices>HTTPService.оду_universalExchange</httpServices>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменение</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменение</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеРС</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.оду_ОтложенноеПроведение</scheduledJobs>
   <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
   <functionalOptions>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</functionalOptions>
   <definedTypes>DefinedType.ВладелецДополнительныхСведений</definedTypes>
   <definedTypes>DefinedType.ВладелецМеток</definedTypes>
+  <definedTypes>DefinedType.оду_ДокументыРегистрации</definedTypes>
+  <definedTypes>DefinedType.оду_ОбъектыРегистрации</definedTypes>
+  <definedTypes>DefinedType.оду_РегистрыРегистрации</definedTypes>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</commonCommands>
   <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
   <commonForms>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</commonForms>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
-  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
-  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
-  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
   <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
+  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
+  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.пр_ЗадачиРазработки</catalogs>
@@ -95,6 +97,8 @@
   <catalogs>Catalog.synс_Server</catalogs>
   <catalogs>Catalog.synс_Services</catalogs>
   <catalogs>Catalog.synс_SystemOwner</catalogs>
+  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.оду_НастройкаОтборовОбмена</catalogs>
   <documents>Document.КорректировкаРегистров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
@@ -107,12 +111,11 @@
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.оду_УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.пр_КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.synс_ConnectionSettings</informationRegisters>
+  <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_ВерсииПравилОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиУчастниковОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
-  <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_СинхронизацияРегистровУчета</informationRegisters>
   <informationRegisters>InformationRegister.оду_СоответствиеВерсийКонфигурацийНастройкеКонвертации</informationRegisters>
   <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
@@ -120,7 +123,12 @@
   <informationRegisters>InformationRegister.пр_Логи</informationRegisters>
   <informationRegisters>InformationRegister.пр_НастройкиРаботыМодулейМетодов</informationRegisters>
   <informationRegisters>InformationRegister.пр_СписокЗадачРазработки</informationRegisters>
-  <informationRegisters>InformationRegister.synс_ConnectionSettings</informationRegisters>
   <informationRegisters>InformationRegister.synс_JWT</informationRegisters>
+  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_НастройкиОтборовОбъектовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_НастройкиОтборовУчастниковОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_НастройкаПараметровОбъектовОбмена</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.оду_ПараметрыОбъектаОбмена</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

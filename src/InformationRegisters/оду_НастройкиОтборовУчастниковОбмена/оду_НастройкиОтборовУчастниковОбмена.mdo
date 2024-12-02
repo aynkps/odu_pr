@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e150924-99af-403f-acdb-20b026f2df30">
+  <producedTypes>
+    <selectionType typeId="db3281bc-e6eb-4575-8cf3-0c09e5f24eb9" valueTypeId="317b79e0-0e79-45cc-b2ef-21ec4e271d43"/>
+    <listType typeId="299f0e36-dcc3-4dad-9773-33ced569672a" valueTypeId="4e10533c-d0f6-4ed8-b24b-40a1a981b0f2"/>
+    <managerType typeId="c8d4c18d-3cee-4ce0-9f8d-a25ed5a72411" valueTypeId="091d2b7e-6e7c-4027-961e-fbd791505654"/>
+    <recordSetType typeId="e6fc9e8a-4676-4863-ada5-c67ed04f6675" valueTypeId="8c1c6a73-b9e3-4655-9620-f3d02a822790"/>
+    <recordKeyType typeId="61019919-1ffb-43a4-8333-e167ba21d09c" valueTypeId="75fa2042-05d9-4c4b-b114-c2f59a6360e3"/>
+    <recordType typeId="c8e73084-6ee0-4671-91b0-38d7ff6e4de9" valueTypeId="4a55d956-4456-4c3b-aa49-0ef9b4a6121f"/>
+    <recordManagerType typeId="bc8c4062-de8c-4749-93ed-03bbe27eb0af" valueTypeId="31c511a7-ca1c-4728-81e1-82eb10a01e2e"/>
+  </producedTypes>
+  <name>оду_НастройкиОтборовУчастниковОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отборов участников обмена (УОД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="16001bbf-f1b5-497d-b97c-52a1bc1ccbf8">
+    <name>ИДБазыИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД базы источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="8978d141-a345-442c-9c42-3a7c5345972d">
+    <name>НастройкаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отбора</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.оду_НастройкаОтборовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac05cf22-082d-4656-b7f4-3b77d0921973">
+    <name>УчастникОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.оду_БазыУчастникиОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c10d3873-1822-4e13-a206-737cbad509f1">
+    <name>ЗначениеОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение отбора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

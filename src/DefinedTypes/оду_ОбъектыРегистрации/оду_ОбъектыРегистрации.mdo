@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b65fd665-9424-4e37-b08d-4d917ecbeee7">
+  <producedTypes>
+    <containerType typeId="a9db8643-d8ce-415a-bfc8-9bd3ab99c983" valueTypeId="7bc40e2e-dc14-41ca-b009-cffdf4c00a7d"/>
+  </producedTypes>
+  <name>оду_ОбъектыРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду объекты регистрации</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
+    <types>CatalogObject.оду_БазыУчастникиОбмена</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
+  </type>
+</mdclass:DefinedType>

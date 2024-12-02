@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87df7e1-902a-4904-b6d7-172299bd9fa6">
+  <producedTypes>
+    <selectionType typeId="f7dea5a9-10b1-43da-8aca-01a7be71b8aa" valueTypeId="98905298-2683-40fe-9b03-d0c51623088d"/>
+    <listType typeId="1bb936f8-5daf-4012-94ed-415264d6c531" valueTypeId="c64158c7-6ad1-4c0b-bd5a-a2c4e0257ac2"/>
+    <managerType typeId="b7ae66e8-bb0d-4cac-b013-3798039c1eb0" valueTypeId="f95a6a01-2805-4498-acd3-e476aafc749e"/>
+    <recordSetType typeId="c99c0a93-7b82-4f1d-bde0-73ff9c0852bc" valueTypeId="994f26a2-58b6-48ac-b4a6-86f6b5c7fa9d"/>
+    <recordKeyType typeId="d703986f-58af-45bf-9630-867e9a405766" valueTypeId="78cfb5dd-4404-4cef-9feb-2262f24b899d"/>
+    <recordType typeId="829eaf74-2682-48d6-aa07-a15ea0a03a74" valueTypeId="031395c8-7dd7-4c0b-82f1-e85111e70dec"/>
+    <recordManagerType typeId="31863f28-a68c-42dc-a51b-217b716b9fab" valueTypeId="0c5b8d5b-3ffe-4e00-b724-d25f26d666a5"/>
+  </producedTypes>
+  <name>оду_НастройкаПараметровОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка параметров объектов обмена (УОД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.оду_НастройкаПараметровОбъектовОбмена.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2383a1b6-a705-40f7-b8a1-077a942690b4">
+    <name>ОбъектОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f8d24f67-0a45-4771-b438-9f9e29567b6f">
+    <name>ПараметрОбъектаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр объекта обмена</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.оду_ПараметрыОбъектаОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="78fdbac8-4abc-4507-b881-7abf14f3d280">
+    <name>ТипXMLОбъектаИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип XML объекта источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ab4d3794-e72c-4a27-a4bf-be1d64390d4e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

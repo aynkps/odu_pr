@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d3bba26-8ca9-429a-ae6b-42df6903cbfa">
+  <producedTypes>
+    <containerType typeId="962b397c-7e1f-475d-80da-7568f346b990" valueTypeId="a4e0e6c5-6709-40f1-86ed-b376b076b443"/>
+  </producedTypes>
+  <name>оду_ДокументыРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду документы регистрации</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+  </type>
+</mdclass:DefinedType>

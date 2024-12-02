@@ -6,7 +6,7 @@
     <value>Оду зарегистрировать изменение документа</value>
   </synonym>
   <source>
-    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DefinedType.оду_ДокументыРегистрации</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.оду_Общий.РегистрацияДокументаПередЗаписью</handler>

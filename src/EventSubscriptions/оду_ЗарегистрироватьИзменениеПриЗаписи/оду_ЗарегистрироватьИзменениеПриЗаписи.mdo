@@ -6,9 +6,7 @@
     <value>Оду зарегистрировать изменение при записи</value>
   </synonym>
   <source>
-    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
-    <types>CatalogObject.оду_БазыУчастникиОбмена</types>
-    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
+    <types>DefinedType.оду_ОбъектыРегистрации</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.оду_Общий.РегистрацияПриЗаписи</handler>
